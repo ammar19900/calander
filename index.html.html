@@ -1,0 +1,646 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>تقويم الدورات – الفصل الأول 2027</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f3f1ec;--card:#fffdf9;--ink:#0b1f3a;--mute:#5d6778;--line:#d9d3c4;--acc:#0b2a55;--onacc:#fff;--accbg:#e7ecf4;--off:#efece4;--gold:#b8923a;
+--occ:#14609a;--s1:#2f6b3a;--s2:#b7852b;--s3:#6b7280;--s4:#a4262c;--s5:#2a5aa0}
+:root:not([data-theme="light"]){}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1424;--card:#101e33;--ink:#eae6da;--mute:#9aa6b8;--line:#24344d;--acc:#d4b05a;--onacc:#0a1424;--accbg:#1c2c47;--off:#0d192b;--gold:#d4b05a;--occ:#1f78b8;--s1:#4f9a5d;--s2:#d9a441;--s4:#d9534f;--s5:#5b8fd6}}
+:root[data-theme="dark"]{--bg:#0a1424;--card:#101e33;--ink:#eae6da;--mute:#9aa6b8;--line:#24344d;--acc:#d4b05a;--onacc:#0a1424;--accbg:#1c2c47;--off:#0d192b;--gold:#d4b05a;--occ:#1f78b8}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Tajawal,Tahoma,"Segoe UI",Arial,sans-serif;font-size:15px}
+.wrap{max-width:1100px;margin:0 auto;padding:16px}
+.hd{background:#0b1f3a;border-bottom:3px solid var(--gold);color:#f4efe0}
+.hd::after{content:"";display:block;height:9px;background:linear-gradient(#fff 0 33.3%,#a4262c 33.3% 66.6%,#2f6b3a 66.6%)}
+.hi{max-width:1100px;margin:0 auto;padding:18px 16px 16px;display:flex;align-items:center;gap:14px}
+.hi img{flex:none;height:74px;width:auto}
+h1{font-family:Amiri,'Traditional Arabic',serif;font-size:30px;font-weight:700;margin:0;line-height:1.3}
+.sub{color:#b9c3d4;margin:2px 0 0;font-size:14px}
+.wrap{padding-top:18px}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.stat{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:4px;padding:8px 14px;min-width:120px}
+.stat b{display:block;font-family:Amiri,serif;font-size:26px;font-weight:700;color:var(--acc)}
+.stat span{color:var(--mute);font-size:13px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.tabs{display:flex;border:1px solid var(--line);border-radius:4px;overflow:hidden;background:var(--card)}
+.tabs button{border:0;background:none;color:var(--ink);padding:8px 16px;font:inherit;cursor:pointer}
+.tabs button[aria-pressed=true]{background:var(--acc);color:var(--onacc);font-weight:700}
+button,input,select{font:inherit;color:var(--ink)}
+.btn{background:var(--acc);color:var(--onacc);border:0;border-radius:4px;padding:8px 16px;cursor:pointer;font-weight:700}
+.btn.ghost{background:var(--card);color:var(--ink);border:1px solid var(--line);font-weight:500}
+.btn.del{background:var(--s4);color:#fff}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.sp{flex:1}
+.nav{display:flex;align-items:center;gap:8px}
+.nav h2{margin:0;font-family:Amiri,serif;font-size:24px;color:var(--acc);min-width:110px;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.dow{background:#0b1f3a;color:#f4efe0;font-family:Amiri,serif;font-size:15px;text-align:center;padding:6px 0;font-weight:700;font-size:13px}
+.dow.we{opacity:.55}
+.day{background:var(--card);min-height:104px;padding:4px;cursor:pointer;overflow:hidden}
+.day.off{background:var(--off);cursor:default}
+.day.we{background:var(--off)}
+@property --ang{syntax:"<angle>";initial-value:0deg;inherits:false}
+@keyframes flame{to{--ang:360deg}}
+.day.today,.yc.td,.wb .nw{position:relative;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--gold) 35%,transparent)}
+.day.today::after,.yc.td::after,.wb .nw::after{content:"";position:absolute;inset:0;border-radius:inherit;padding:2px;pointer-events:none;background:conic-gradient(from var(--ang),transparent 0 62%,color-mix(in srgb,var(--gold) 45%,transparent) 76%,var(--gold) 90%,#fff7d6 97%,transparent 100%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);animation:flame 2.6s linear infinite;filter:drop-shadow(0 0 3px var(--gold))}
+@media(prefers-reduced-motion:reduce){.day.today::after,.yc.td::after,.wb .nw::after{animation:none}}
+.dn{font-size:12px;color:var(--mute);margin-bottom:2px;display:flex;justify-content:space-between}
+.dn i{font-style:normal;color:var(--gold);font-weight:700}
+.chip{display:block;width:100%;text-align:right;border:0;border-inline-start:4px solid var(--c);background:color-mix(in srgb,var(--c) 14%,var(--card));color:var(--ink);border-radius:4px;padding:2px 6px;margin-bottom:2px;font-size:12px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.more{font-size:11px;color:var(--mute);padding:0 4px}
+.mv{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(0,1fr);gap:14px;align-items:start}
+.day{min-height:78px}
+.day.sel{box-shadow:inset 0 0 0 2px var(--ink)}
+.day b{display:block;font-family:Amiri,serif;font-size:24px;font-weight:700;margin-top:4px;color:var(--ink)}
+.day.we b{color:var(--mute)}
+.pn{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:4px;padding:12px 14px}
+.pn{overflow-y:auto;overscroll-behavior:contain}.pn.ex{overflow:visible;max-height:none!important}
+.pnh{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.pmt{border:1px solid var(--line);background:var(--off);color:var(--acc);border-radius:4px;padding:2px 8px;font:inherit;font-size:12px;cursor:pointer;white-space:nowrap}
+details.pgd>summary{cursor:pointer;list-style:none}details.pgd>summary::-webkit-details-marker{display:none}
+details.pgd>summary::before{content:"◂";margin-inline-end:6px;color:var(--mute)}details.pgd[open]>summary::before{content:"▾"}
+.pn h3{font-family:Amiri,serif;font-size:20px;margin:0 0 8px;color:var(--acc)}
+.pg{font-weight:700;font-size:13px;margin:10px 0 3px;padding-top:6px;border-top:1px solid var(--line);display:flex;justify-content:space-between}
+.pc{display:flex;gap:6px;align-items:baseline;width:100%;text-align:right;border:0;background:none;padding:3px 0;cursor:pointer;font-size:13px}
+.pc i{flex:none;width:8px;height:8px;border-radius:50%;background:var(--c)}
+.trow{display:grid;grid-template-columns:1.4fr 1fr 1fr auto;gap:6px;align-items:end;margin-bottom:8px}
+.trow label{display:flex;flex-direction:column;font-size:12px;color:var(--mute);gap:2px}
+.trow input{padding:6px;border:1px solid var(--line);border-radius:4px;background:var(--bg)}
+@media(max-width:640px){.trow{grid-template-columns:1fr 1fr}}
+.al{background:var(--card);border:1px solid var(--line);border-inline-start:4px solid var(--gold);border-radius:4px;padding:10px 14px;margin:0 0 12px}
+.al h4{margin:0 0 6px;font-size:14px}.al2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:640px){.al2{grid-template-columns:1fr}}
+.stats .stat{flex:1 1 170px}
+.sbox{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:4px;padding:12px 14px;margin-top:14px}
+.sbox summary{cursor:pointer;font-size:14px;font-weight:700;color:var(--mute)}.sbox summary small{font-weight:400}
+.sbox[open] summary{margin-bottom:10px}
+.sgrid{display:flex;flex-wrap:wrap;gap:8px}
+.sgrid div{background:var(--off);border-radius:4px;padding:5px 10px;display:flex;align-items:baseline;gap:8px}
+.sgrid b{font-size:15px;color:var(--ink)}
+.sgrid span{font-size:12px;color:var(--mute)}
+.ann0{margin-top:12px}.ann0 .btn svg{vertical-align:-3px;margin-inline-end:6px}
+.ah{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:14px 0 10px}
+.ah h2{font-family:Amiri,serif;margin:0;font-size:28px;color:var(--acc);min-width:90px;text-align:center}
+.ah input{width:100px;padding:6px;border:1px solid var(--line);border-radius:4px;background:var(--card);text-align:center}
+.yg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media(max-width:900px){.yg{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.yg{grid-template-columns:minmax(0,1fr)}}
+.ym{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:4px;padding:8px}
+.ym h4{margin:0 0 6px;font-family:Amiri,serif;font-size:18px;color:var(--acc);text-align:center}
+.yd{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;text-align:center;font-size:12px}
+.yd b{font-weight:700;color:var(--mute);font-size:11px;padding-bottom:2px}
+.yc{border-radius:3px;padding:4px 0;min-height:28px;cursor:pointer;border:0;background:none;color:var(--ink);font:inherit;font-size:12px}
+.yc.we{color:var(--mute)}
+.chs{display:grid;grid-template-columns:2fr 3fr 2fr;gap:12px;margin-top:12px}
+@media(max-width:1000px){.chs{grid-template-columns:1fr}}
+.chc{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:4px;padding:10px 14px}
+.chc h3{font-family:Amiri,serif;font-size:19px;margin:0 0 2px;color:var(--acc)}
+.chc .sub{font-size:12px;color:var(--mute);margin-bottom:8px}
+.wb{display:flex;align-items:flex-end;gap:4px;height:150px;border-bottom:1px solid var(--line);padding-top:18px}
+.wb>div{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%}
+.wb i{display:block;width:100%;border-radius:3px 3px 0 0;background:var(--acc);opacity:.75}
+.wb em{font-style:normal;font-size:10px;color:var(--mute);line-height:1.2;margin-bottom:2px}
+.wb .lo i{background:var(--s1);opacity:1}.wb .hi i{background:var(--s4);opacity:1}
+.wb .nw{border-radius:4px}
+.wl{display:flex;gap:4px}.wl span{flex:1;min-width:0;text-align:center;font-size:10px;color:var(--mute);padding-top:3px;line-height:1.25}.wl span b{display:block;font-size:13px;color:var(--ink)}
+.cmt{float:left;border:1px solid var(--line);background:var(--off);color:var(--acc);border-radius:4px;padding:3px 6px;cursor:pointer;line-height:0}.cmt:hover{background:var(--accbg)}
+.nt{min-height:34px;margin-top:8px}
+.nt .nm{display:flex;gap:8px;align-items:flex-start;background:var(--accbg);border-inline-start:3px solid var(--gold);border-radius:4px;padding:7px 10px;font-size:13px;color:var(--ink);animation:ntin .4s ease both}
+.nt .nm.out{animation:ntout .6s ease both}
+@keyframes ntin{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes ntout{to{opacity:0;transform:translateY(-4px)}}
+@media(prefers-reduced-motion:reduce){.nt .nm,.nt .nm.out{animation:none}}
+.ntb{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:6px;font-size:12px}
+.ntb button{border:1px solid var(--line);background:var(--off);color:var(--acc);border-radius:4px;padding:3px 8px;cursor:pointer;font:inherit;font-size:12px}
+.ntm{margin-top:6px}.ntm input{width:100%;box-sizing:border-box;padding:6px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--ink);font:inherit;font-size:13px}
+.ntm li{display:flex;gap:6px;justify-content:space-between;font-size:12px;margin:3px 0}.ntm ul{list-style:none;padding:0;margin:6px 0 0}
+.dn{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.dn svg{flex:none}.dn ul{list-style:none;margin:0;padding:0;flex:1;min-width:150px;font-size:12px}
+.dn li{display:flex;gap:6px;align-items:center;margin:3px 0}.dn li i{width:10px;height:10px;border-radius:2px;flex:none}.dn li b{margin-inline-start:auto}
+.yc.dim{opacity:.28}
+.tchips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px}
+.tchips button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:4px;padding:5px 10px;font:inherit;font-size:12px;cursor:pointer;text-align:start}
+.tchips button b{display:block;font-size:13px}.tchips button span{color:var(--mute)}
+.tchips button[aria-pressed="true"]{background:var(--ink);color:var(--card);border-color:var(--ink)}
+.tchips button[aria-pressed="true"] span{color:inherit;opacity:.8}
+.yc.ev{background:var(--occ)!important;color:#fff!important;font-weight:700}
+.yc.rl{background:var(--s1)!important;color:#fff!important}
+.yc.oc-red{background:#c62f2f!important;color:#fff!important}.yc.oc-yel{background:#f2c200!important;color:#1b1b1b!important}
+.yc.oc-blue{background:var(--occ)!important;color:#fff!important}.yc.oc-grn{background:var(--s1)!important;color:#fff!important}
+.ofm{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:10px 12px;margin:0 0 10px;display:grid;gap:8px}
+.ofm .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.ofm input[type=text],.ofm input[type=date]{padding:6px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--ink);font:inherit;font-size:13px}
+.ofm input[type=text]{flex:1;min-width:180px}
+.csw{display:flex;gap:6px}.csw label{cursor:pointer;display:flex;align-items:center;gap:4px;font-size:12px}
+.csw input{position:absolute;opacity:0;pointer-events:none}.csw i{width:22px;height:22px;border-radius:50%;border:2px solid transparent;display:block}
+.csw input:checked+i{border-color:var(--ink);box-shadow:0 0 0 2px var(--card) inset}
+.olist{list-style:none;margin:0;padding:0;font-size:12px}.olist li{display:flex;gap:8px;align-items:center;margin:3px 0}.olist li i{width:10px;height:10px;border-radius:50%;flex:none}.olist li button{margin-inline-start:auto;border:0;background:none;color:var(--mute);cursor:pointer}
+.yc.rm{box-shadow:inset 0 -3px 0 var(--s1)}
+.yc.td{font-weight:700}
+.yc.sel{background:var(--ink)!important;color:var(--card)!important;box-shadow:inset 0 0 0 2px var(--gold)}
+.evl{margin-top:12px;background:var(--card);border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:4px;padding:10px 14px}
+.evl h3{font-family:Amiri,serif;font-size:20px;margin:0 0 6px;color:var(--acc)}
+.evl .er{display:flex;gap:10px;padding:4px 0;border-bottom:1px solid var(--line);font-size:13px;flex-wrap:wrap}
+.evl .er b{min-width:150px}.evl .er small{color:var(--mute)}
+.evl .er i{width:9px;height:9px;border-radius:50%;margin-top:5px;flex:none}
+.note{font-size:12px;color:var(--mute);margin-top:8px}
+.chg{background:var(--off);border-radius:4px;padding:8px 10px;margin:0 0 6px}
+.cg{font-weight:700;font-size:13px;margin:6px 0 2px}
+.dl{display:block;font-size:12px;font-weight:700;margin-top:2px}
+.legend{display:flex;gap:12px;flex-wrap:wrap;margin:10px 0;font-size:13px;color:var(--mute)}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--c);margin-inline-end:5px}
+.tbl{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:4px}
+table{border-collapse:collapse;width:100%;min-width:760px}
+th,td{padding:9px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:#0b1f3a;font-size:13px;color:#f4efe0;font-weight:700}
+tbody tr{cursor:pointer}tbody tr:hover{background:var(--accbg)}
+.pill{display:inline-block;padding:1px 10px;border-radius:20px;background:color-mix(in srgb,var(--c) 16%,var(--card));border:1px solid var(--c);font-size:12px}
+.week{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:8px}
+.wk{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:10px}
+.wk small{color:var(--mute)}.wk b{display:block;font-family:Amiri,serif;font-size:28px;color:var(--acc)}
+.wk div{height:5px;border-radius:2px;background:var(--gold);margin-top:6px}
+.search{padding:8px 12px;border:1px solid var(--line);border-radius:4px;background:var(--card);min-width:180px}
+.mask{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;padding:16px;z-index:9}
+.mask.on{display:flex}
+.modal{background:var(--card);border-radius:12px;padding:18px;width:100%;max-width:480px;max-height:100%;overflow:auto}
+.modal h3{margin:0 0 12px}
+.f{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.f label{display:flex;flex-direction:column;font-size:13px;color:var(--mute);gap:3px}
+.f .w{grid-column:1/-1}
+.f input,.f select{padding:8px;border:1px solid var(--line);border-radius:6px;background:var(--bg)}
+.acts{display:flex;gap:8px;margin-top:14px}
+.err{color:var(--s4);font-size:13px;min-height:18px;margin-top:6px}
+.empty{padding:28px;text-align:center;color:var(--mute)}
+@media(max-width:760px){.mv{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:640px){.day{min-height:56px}.day b{font-size:18px}.chip{font-size:10px;padding:1px 3px}.f{grid-template-columns:1fr}}
+@media print{.bar,.acts,.legend{display:none}body{background:#fff}}
+</style>
+</head>
+<body>
+<header class="hd"><div class="hi"><img src="data:image/png;base64,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" alt="شعار البحرية السلطانية العمانية" width="62" height="74"><div><h1 id="h1t">تقويم الدورات – الفصل الأول 2027</h1><p class="sub" id="subt">من 3 يناير إلى 8 أبريل 2027 · اضغط على أي يوم لعرض دوراته، وعلى الدورة لتعديلها.</p></div></div></header>
+<div class="wrap">
+<div class="stats">
+<div class="stat"><b id="sTotal">0</b><span id="sTotall">إجمالي الدورات في هذا الفصل</span></div>
+<div class="stat"><b id="sMonth">0</b><span>دورات مؤكدة نشطة هذا الشهر</span></div>
+<div class="stat"><b id="sOff">0</b><span id="sOffl">ملغاة / مؤجلة</span></div>
+</div>
+<div class="stats">
+<div class="stat"><b id="sTrT">0</b><span id="sTrTl">متدرب خلال الفصل كاملًا</span></div>
+<div class="stat"><b id="sTrW">0</b><span id="sTrWl">متدرب هذا الأسبوع</span></div>
+<div class="stat"><b id="sTrN">0</b><span id="sTrNl">متدرب الأسبوع القادم</span></div>
+</div>
+<div class="note" style="margin:-4px 0 12px">إحصاءات الدورات النشطة والمتدربين تشمل الدورات «المؤكدة» فقط (بدون قيد التأكيد أو الملغاة أو المؤجلة).</div>
+<div class="al" id="alerts" style="display:none"></div>
+<div class="bar">
+<div class="tabs" role="group" aria-label="طريقة العرض">
+<button data-v="month" aria-pressed="true">الشهر</button>
+<button data-v="list" aria-pressed="false">القائمة</button>
+<button data-v="week" aria-pressed="false">الأسابيع</button>
+</div>
+<select class="search" id="ts" style="min-width:150px" aria-label="الفصل"></select>
+<button class="btn ghost" id="setb">إدارة الفصول</button>
+<div class="nav" id="nav">
+<button class="btn ghost" id="next" aria-label="الشهر التالي">›</button>
+<h2 id="mt"></h2>
+<button class="btn ghost" id="prev" aria-label="الشهر السابق">‹</button>
+</div>
+<span class="sp"></span>
+<select class="search" id="fe"><option value="">كل الجهات</option></select>
+<select class="search" id="fs" aria-label="الحالة"><option value="">الدورات الفعّالة</option><option>قيد التدريب</option><option>قادمة</option><option>منتهية</option><option value="off">ملغاة / مؤجلة</option><option value="all">الكل</option></select>
+<input class="search" id="q" type="search" placeholder="ابحث باسم الدورة أو الجهة" style="display:none">
+<button class="btn" id="add">إضافة دورة</button>
+</div>
+<div id="view"></div>
+<div class="chs" id="chs"></div>
+<div class="ann0"><button class="btn ghost" id="annb" type="button" aria-expanded="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>التقويم السنوي</button></div>
+<div id="annv" style="display:none"></div>
+<details class="sbox" id="sbox"><summary>إحصائية المتدربين بحسب المدرسة <small>(اضغط للعرض)</small></summary>
+<div style="margin-bottom:10px"><select class="search" id="ss" aria-label="المدرسة" style="min-width:280px;max-width:100%"></select></div>
+<div class="sgrid" id="sres"></div>
+<div class="acts" style="margin-top:12px"><button class="btn" id="expX" type="button">تصدير إلى Excel</button><button class="btn ghost" id="expW" type="button">تصدير إلى Word</button></div>
+<div class="note" id="expN">يشمل التصدير الدورات المؤكدة فقط، ويتبع المدرسة المختارة أعلاه (أو كل المدارس).</div></details>
+<div class="legend" id="legend"></div>
+</div>
+
+<div class="mask" id="mask"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="mh">
+<h3 id="mh">إضافة دورة</h3>
+<div class="f">
+<label class="w">اسم الدورة<input id="fName"></label><label class="w">الجهة<input id="fEnt" list="ents"></label><datalist id="ents"></datalist>
+<label>تاريخ البداية<input id="fS" type="date"></label>
+<label>تاريخ النهاية<input id="fE" type="date"></label>
+<label>عدد المشاركين<input id="fN"></label>
+<label class="w">الحالة<select id="fSt"></select></label><label class="w">ملاحظات<input id="fNote"></label>
+</div>
+<div class="err" id="err"></div>
+<div class="acts">
+<button class="btn" id="save">حفظ</button>
+<button class="btn ghost" id="cancel">إلغاء</button>
+<span class="sp"></span>
+<button class="btn del" id="del">حذف</button>
+</div>
+</div></div>
+
+<div class="mask" id="mask2"><div class="modal" role="dialog" aria-modal="true" style="max-width:620px"><h3>إدارة الفصول</h3>
+<div id="tl2"></div>
+<button class="btn ghost" id="addT" type="button">إضافة فصل</button>
+<div class="note">حدّد بداية ونهاية كل فصل، ويمكنك إضافة فصول لسنوات قادمة. التقويم وعرض الأسابيع يتبعان هذه التواريخ، ويمكن تعديلها في أي وقت.</div>
+<div class="err" id="terr"></div>
+<div class="acts"><button class="btn" id="saveT">حفظ</button><button class="btn ghost" id="cancelT">إلغاء</button></div>
+</div></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script>
+var ST={"مؤكدة":"var(--s1)","قيد التأكيد":"var(--s2)","مؤجلة":"var(--s3)","ملغاة":"var(--s4)","منتهية":"var(--s5)"};
+var MON=["يناير","فبراير","مارس","أبريل"],DOW=["الأحد","الإثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت"];
+var KEY="courses-2027-t1-v2";
+var DEF=[{"id": "d0", "name": "NJSC-69 دورة الأركان البحرية", "ent": "مدرسة الأركان البحرية", "start": "2027-01-03", "end": "2027-03-18", "n": "TBC", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d1", "name": "JOAC-54 دورة الإدارة للضباط", "ent": "مدرسة الأركان البحرية", "start": "2027-03-21", "end": "2027-04-08", "n": "TBC", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d2", "name": "PWOC-43 دورة ضباط مبادئ الحرب", "ent": "مدرسة تدريب العمليات", "start": "2026-07-05", "end": "2027-05-04", "n": "8", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "d3", "name": "PWOC-44 دورة ضباط مبادئ الحرب", "ent": "مدرسة تدريب العمليات", "start": "2027-01-03", "end": "2027-11-11", "n": "8", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d4", "name": "GO DESIG 01/27 التأهيلية لضباط المدفعية", "ent": "مدرسة تدريب العمليات", "start": "2027-03-01", "end": "2027-04-01", "n": "TBC", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d5", "name": "XO DESIG 01/27 التأهيلية للضباط التنفيذيين", "ent": "مدرسة تدريب العمليات", "start": "2027-04-18", "end": "2027-04-29", "n": "8", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d6", "name": "DMC-62 (A) دورة الضباط حملة الدبلوم", "ent": "مدرسة تدريب الملاحة", "start": "2026-01-04", "end": "2027-09-16", "n": "15", "time": "", "venue": "", "note": "Semester-8", "status": "مؤكدة"}, {"id": "d8", "name": "GSC-01 دورة ضباط الخدمة العامة", "ent": "مدرسة تدريب المرشحين", "start": "2025-12-14", "end": "2027-11-03", "n": "10", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "d9", "name": "DMC-64 دورة الضباط حملة الدبلوم", "ent": "مدرسة تدريب المرشحين", "start": "2025-12-14", "end": "2027-11-03", "n": "27", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "d10", "name": "BCL-59 دورة الكتبة التأسيسية", "ent": "مدرسة تدريب الإدارة واللوازم", "start": "2027-01-03", "end": "2027-03-25", "n": "15", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d11", "name": "BLA-59 دورة اللوازم التأسيسية", "ent": "مدرسة تدريب الإدارة واللوازم", "start": "2027-01-03", "end": "2027-03-11", "n": "30", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d12", "name": "RDMC-250 دورة إدارة الأقسام للرقباء", "ent": "مدرسة تدريب الإدارة واللوازم", "start": "2027-01-10", "end": "2027-01-21", "n": "16", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d13", "name": "SQC-09 التأهيلية لضباط الصف", "ent": "مدرسة تدريب الإدارة واللوازم", "start": "2027-03-14", "end": "2027-04-01", "n": "15", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d14", "name": "SQC-10 التأهيلية لضباط الصف", "ent": "مدرسة تدريب الإدارة واللوازم", "start": "2027-06-13", "end": "2027-07-01", "n": "15", "time": "", "venue": "", "note": "الفصل الثاني 2027", "status": "قيد التأكيد"}, {"id": "d15", "name": "BSMG-21 دورة بحار مدفعي تأسيسية", "ent": "مدرسة التدريب التعبوي", "start": "2027-01-03", "end": "2027-04-08", "n": "15", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d16", "name": "ASMG-24 دورة بحار مدفعي متقدمة", "ent": "مدرسة التدريب التعبوي", "start": "2027-01-03", "end": "2027-04-08", "n": "15", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d17", "name": "ACM-69 دورة الاتصالات المتقدمة", "ent": "مدرسة التدريب التعبوي", "start": "2027-01-03", "end": "2027-07-29", "n": "20", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d18", "name": "GMDSS-21 النظام العالمي للاستغاثة والسلامة البحرية", "ent": "مركز أكاديمية السلطان قابوس البحرية للدورات المهنية", "start": "2027-03-21", "end": "2027-04-01", "n": "12", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d19", "name": "BST-11 التدريب الأساسي للسلامة", "ent": "مركز أكاديمية السلطان قابوس البحرية للدورات المهنية", "start": "2027-01-24", "end": "2027-01-28", "n": "12", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d20", "name": "ASD-36 دورة المباشرين المتقدمة", "ent": "مدرسة تدريب الإعاشة", "start": "2027-01-03", "end": "2027-02-25", "n": "12", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d21", "name": "ACK-52 دورة الطهاة المتقدمة", "ent": "مدرسة تدريب الإعاشة", "start": "2027-01-03", "end": "2027-02-25", "n": "12", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d22", "name": "RSD-30 دورة رقيب مباشر", "ent": "مدرسة تدريب الإعاشة", "start": "2027-02-21", "end": "2027-04-08", "n": "12", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d23", "name": "RCK-50 دورة رقيب طاهي", "ent": "مدرسة تدريب الإعاشة", "start": "2027-02-21", "end": "2027-04-08", "n": "12", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d24", "name": "BSC-40 دورة الأمن التأسيسية", "ent": "مدرسة تدريب الاستخبارات والأمن والانضباط البحري", "start": "2027-01-10", "end": "2027-03-18", "n": "22", "time": "", "venue": "", "note": "السنة في المصدر 2026، واعتُمدت 2027", "status": "قيد التأكيد"}, {"id": "d25", "name": "RSC-45 دورة رقيب أمن", "ent": "مدرسة تدريب الاستخبارات والأمن والانضباط البحري", "start": "2027-01-10", "end": "2027-02-18", "n": "22", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d26", "name": "RSC-46 دورة رقيب أمن", "ent": "مدرسة تدريب الاستخبارات والأمن والانضباط البحري", "start": "2027-02-21", "end": "2027-04-01", "n": "22", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d27", "name": "MEL(A)-05 دورة الكهرباء المتقدمة", "ent": "مدرسة التدريب الهندسي", "start": "2026-09-06", "end": "2027-04-01", "n": "15", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "d28", "name": "MEM(A)-04 دورة الميكانيك المتقدمة", "ent": "مدرسة التدريب الهندسي", "start": "2026-09-06", "end": "2027-04-01", "n": "14", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "d29", "name": "MEO AC-04 التطبيقية لضباط الهندسة البحرية", "ent": "مدرسة التدريب الهندسي", "start": "2026-05-03", "end": "2027-03-31", "n": "8", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "d30", "name": "WEO AC-02 التطبيقية لضباط هندسة الأسلحة", "ent": "مدرسة التدريب الهندسي", "start": "2026-05-03", "end": "2027-03-31", "n": "8", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "d31", "name": "دورة مشرف غوص مخاليط الغازات 1/2027", "ent": "مدرسة تدريب الغوص ومكافحة الألغام البحرية", "start": "2027-01-03", "end": "2027-02-11", "n": "4", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d32", "name": "دورة الغوص باستخدام مخاليط الغازات 2/2027", "ent": "مدرسة تدريب الغوص ومكافحة الألغام البحرية", "start": "2027-01-10", "end": "2027-02-11", "n": "8", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d33", "name": "دورة التعامل مع المتفجرات والألغام البحرية التأسيسية 3/2027", "ent": "مدرسة تدريب الغوص ومكافحة الألغام البحرية", "start": "2027-02-28", "end": "2027-04-08", "n": "6", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d34", "name": "دورة نائب عريف بحار (غوص) 4/2027", "ent": "مدرسة تدريب الغوص ومكافحة الألغام البحرية", "start": "2027-02-21", "end": "2027-04-15", "n": "10", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d35", "name": "دورة الموسيقى التأسيسية BAND FOUNDATION", "ent": "مدرسة التدريب الموسيقي", "start": "2027-01-03", "end": "2027-04-08", "n": "23", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d36", "name": "دورة المرحلة السابعة (عملي)", "ent": "مدرسة التدريب الموسيقي", "start": "2027-01-03", "end": "2027-04-08", "n": "15", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d37", "name": "DHC-11 دورة دبلوم الهيدروغرافيا", "ent": "مدرسة تدريب الهيدروغرافيا", "start": "2025-05-04", "end": "2028-01-31", "n": "10", "time": "", "venue": "", "note": "تنتهي يناير 2028", "status": "مؤكدة"}, {"id": "d38", "name": "RLC-222 دورة القيادة والإدارة للرقباء", "ent": "مدرسة تدريب القيادة", "start": "2027-01-10", "end": "2027-02-18", "n": "60", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d39", "name": "FOUNDATION YEAR-03 دورة السنة التأسيسية", "ent": "مدرسة تدريب البرامج التأسيسية والإنماء المهني", "start": "2027-01-03", "end": "2027-12-31", "n": "TBC", "time": "", "venue": "", "note": "تنتهي ديسمبر 2027", "status": "قيد التأكيد"}, {"id": "d40", "name": "ITC-01/27 دورة المهارات التدريبية", "ent": "مدرسة تدريب البرامج التأسيسية والإنماء المهني", "start": "2027-01-10", "end": "2027-01-28", "n": "15", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d41", "name": "ITC-02/27 دورة المهارات التدريبية", "ent": "مدرسة تدريب البرامج التأسيسية والإنماء المهني", "start": "2027-02-14", "end": "2027-03-04", "n": "15", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d42", "name": "TMC(RNO)-01/27 دورة إدارة التدريب", "ent": "مدرسة تدريب البرامج التأسيسية والإنماء المهني", "start": "2027-03-14", "end": "2027-03-18", "n": "15", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d43", "name": "BTDC-37 دورة تصميم التدريب", "ent": "قسم تصميم التدريب", "start": "2027-01-24", "end": "2027-02-04", "n": "15", "time": "", "venue": "", "note": "السنة في المصدر 2026، واعتُمدت 2027", "status": "قيد التأكيد"}, {"id": "d44", "name": "BFFDC-1/27 دورة الحريق التأسيسية", "ent": "مدرسة تدريب مكافحة الحريق والحرب الكيميائية", "start": "2027-01-17", "end": "2027-01-21", "n": "25", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d45", "name": "NBCD-32 دورة الوقاية من أسلحة الدمار الشامل", "ent": "مدرسة تدريب مكافحة الحريق والحرب الكيميائية", "start": "2027-03-28", "end": "2027-04-08", "n": "25", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d46", "name": "BLFFDC-01/27 دورة مكافحة حريق", "ent": "مدرسة تدريب مكافحة الحريق والحرب الكيميائية", "start": "2027-03-14", "end": "2027-03-18", "n": "25", "time": "", "venue": "", "note": "العنوان غير واضح في الصورة", "status": "قيد التأكيد"}, {"id": "d47", "name": "دورة مشغلي صواريخ SAMO/SSMO", "ent": "مركز المشبهات والمنظومة القتالية", "start": "2027-03-07", "end": "2027-03-25", "n": "7", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d48", "name": "S&BC-01/27 دورة البحث والتفتيش", "ent": "مدرسة العمليات (البحث والتفتيش)", "start": "2027-01-10", "end": "2027-01-14", "n": "10", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d49", "name": "S&BC-02/27 دورة البحث والتفتيش", "ent": "مدرسة العمليات (البحث والتفتيش)", "start": "2027-01-24", "end": "2027-01-28", "n": "10", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d50", "name": "S&BC-03/27 دورة البحث والتفتيش", "ent": "مدرسة العمليات (البحث والتفتيش)", "start": "2027-02-07", "end": "2027-02-11", "n": "10", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d51", "name": "S&BC-04/27 دورة البحث والتفتيش", "ent": "مدرسة العمليات (البحث والتفتيش)", "start": "2027-02-21", "end": "2027-02-25", "n": "10", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "d52", "name": "S&BC-05/27 دورة البحث والتفتيش", "ent": "مدرسة العمليات (البحث والتفتيش)", "start": "2027-03-28", "end": "2027-04-01", "n": "10", "time": "", "venue": "", "note": "", "status": "قيد التأكيد"}, {"id": "e1", "name": "NJSC-68 دورة الأركان البحرية 68", "ent": "مدرسة الأركان البحرية", "start": "2026-10-04", "end": "2026-12-10", "n": "36", "time": "", "venue": "", "note": "RNO(24) RAO(1) MOD(2) MTCS(1) COSSAF(1) وزارة الدفاع(2) المدينة الطبية(1) البحرية القطرية(4)", "status": "مؤكدة"}, {"id": "e2", "name": "JOAC-53 دورة الإدارة للضباط 53", "ent": "مدرسة الأركان البحرية", "start": "2026-09-06", "end": "2026-09-24", "n": "36", "time": "", "venue": "", "note": "RNO(29) RAFO(1) MOD(1) MTCS(1) صندوق التقاعد(1) الهيئة الوطنية للمساحة(1) أكاديمية الدراسات الاستراتيجية(1) الجيش(1)", "status": "مؤكدة"}, {"id": "e3", "name": "PWOC-42 دورة ضباط مبادئ الحرب (42)", "ent": "مدرسة تدريب العمليات", "start": "2026-01-04", "end": "2026-10-19", "n": "9", "time": "", "venue": "", "note": "نهاية الدورة صُححت بخط اليد إلى 19/10/2026 (كانت 29/10)", "status": "مؤكدة"}, {"id": "e5", "name": "GO DESIG 02/26 التأهيلية لضباط المدفعية", "ent": "مدرسة تدريب العمليات", "start": "2026-10-04", "end": "2026-11-05", "n": "8", "time": "", "venue": "", "note": "مشطوبة في الجدول – سيتم تأكيدها لاحقًا", "status": "قيد التأكيد"}, {"id": "e6", "name": "CO DESIG 01/26 التأهيلية لقادة السفن", "ent": "مدرسة تدريب العمليات", "start": "2026-11-01", "end": "2026-11-19", "n": "9", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e7", "name": "DMC-61 دورة الضباط حملة الدبلوم 61", "ent": "مدرسة تدريب الملاحة", "start": "2025-01-05", "end": "2026-11-03", "n": "19", "time": "", "venue": "", "note": "BWC-01 – Semester-10", "status": "مؤكدة"}, {"id": "e9", "name": "DMC-62 (B) دورة الضباط حملة الدبلوم 62 – مرحلة 1/4", "ent": "مدرسة تدريب العمليات", "start": "2026-01-11", "end": "2026-02-12", "n": "11", "time": "", "venue": "", "note": "مدرسة تدريب العمليات", "status": "مؤكدة"}, {"id": "e10", "name": "DMC-62 (B) دورة الضباط حملة الدبلوم 62 – مرحلة 2/4", "ent": "مدرسة التدريب الهندسي", "start": "2026-02-15", "end": "2026-03-26", "n": "11", "time": "", "venue": "", "note": "مدرسة التدريب الهندسي", "status": "مؤكدة"}, {"id": "e11", "name": "DMC-62 (B) دورة الضباط حملة الدبلوم 62 – مرحلة 3/4", "ent": "مركز أكاديمية السلطان قابوس البحرية للدورات المهنية", "start": "2026-03-29", "end": "2026-04-09", "n": "11", "time": "", "venue": "", "note": "مركز أكاديمية السلطان قابوس البحرية للدورات المهنية", "status": "مؤكدة"}, {"id": "e12", "name": "DMC-62 (B) دورة الضباط حملة الدبلوم 62 – مرحلة 4/4", "ent": "مدرسة تدريب الملاحة", "start": "2026-04-12", "end": "2027-11-03", "n": "11", "time": "", "venue": "", "note": "Semester-5", "status": "مؤكدة"}, {"id": "e15", "name": "GOC-31 دورة الضباط الجامعيين 31", "ent": "مدرسة تدريب المرشحين", "start": "2026-01-04", "end": "2026-11-03", "n": "41", "time": "", "venue": "", "note": "RNO(37) / COSSAF(4) – Semester-03", "status": "مؤكدة"}, {"id": "e16", "name": "RDMC-247 دورة إدارة الأقسام للرقباء", "ent": "مدرسة تدريب الإدارة واللوازم", "start": "2026-09-20", "end": "2026-10-01", "n": "25", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e17", "name": "RDMC-248 دورة إدارة الأقسام للرقباء", "ent": "مدرسة تدريب الإدارة واللوازم", "start": "2026-10-11", "end": "2026-10-22", "n": "25", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e18", "name": "RDMC-249 دورة إدارة الأقسام للرقباء", "ent": "مدرسة تدريب الإدارة واللوازم", "start": "2026-11-08", "end": "2026-11-19", "n": "16", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e19", "name": "SQC-09 الدورة التأهيلية لضباط الصف", "ent": "مدرسة تدريب الإدارة واللوازم", "start": "2026-11-08", "end": "2026-11-26", "n": "", "time": "", "venue": "", "note": "ملغاة – استُبدلت بدورة إدارة الأقسام", "status": "ملغاة"}, {"id": "e20", "name": "ACM-68 دورة الاتصالات المتقدمة", "ent": "مدرسة التدريب التعبوي", "start": "2026-05-03", "end": "2026-12-03", "n": "12", "time": "", "venue": "", "note": "الفصل الثاني – الثالث 2026", "status": "مؤكدة"}, {"id": "e21", "name": "ARP-05 دورة الرادار المتقدمة", "ent": "مدرسة التدريب التعبوي", "start": "2026-09-06", "end": "2026-12-10", "n": "7", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e22", "name": "AEW-03 دورة حرب إلكترونية المتقدمة", "ent": "مدرسة التدريب التعبوي", "start": "2026-09-06", "end": "2026-12-10", "n": "5", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e23", "name": "REW-05 دورة رقيب حرب إلكترونية", "ent": "مدرسة التدريب التعبوي", "start": "2026-09-06", "end": "2026-10-22", "n": "4", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e24", "name": "RSMG-32 دورة رقيب بحار مدفعي", "ent": "مدرسة التدريب التعبوي", "start": "2026-09-06", "end": "2026-12-10", "n": "11", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e25", "name": "ASMG-23 دورة بحار مدفعي متقدمة", "ent": "مدرسة التدريب التعبوي", "start": "2026-09-06", "end": "2026-12-10", "n": "", "time": "", "venue": "", "note": "مؤجلة للفصل الأول 2027", "status": "مؤجلة"}, {"id": "e26", "name": "BTOCTCO دورة التدريب الأساسي لعمليات شحن ناقلات النفط والكيماويات (أسياد)", "ent": "مركز أكاديمية السلطان قابوس البحرية للدورات المهنية", "start": "2026-09-20", "end": "2026-10-01", "n": "5", "time": "", "venue": "", "note": "شركة أسياد (5)", "status": "مؤكدة"}, {"id": "e27", "name": "BST-11 دورة التدريب الأساسي للسلامة", "ent": "مركز أكاديمية السلطان قابوس البحرية للدورات المهنية", "start": "2026-10-04", "end": "2026-10-08", "n": "", "time": "", "venue": "", "note": "ملغاة", "status": "ملغاة"}, {"id": "e28", "name": "دورة تقييم واختبار تنفيذ وإصدار الشهادات للبحارة", "ent": "مركز أكاديمية السلطان قابوس البحرية للدورات المهنية", "start": "2026-11-08", "end": "2026-11-19", "n": "12", "time": "", "venue": "", "note": "سيتم تأكيدها لاحقًا", "status": "قيد التأكيد"}, {"id": "e29", "name": "RFPEW دورة تأهيل البحارة للمشاركة في مناوبة مراقبة الهندسة البحرية (أسياد/ماريو)", "ent": "مركز أكاديمية السلطان قابوس البحرية للدورات المهنية", "start": "2026-10-18", "end": "2026-11-05", "n": "9", "time": "", "venue": "", "note": "شركة أسياد (9)", "status": "مؤكدة"}, {"id": "e30", "name": "BPT-1/26 دورة الرياضة التأسيسية", "ent": "مدرسة تدريب الرياضة", "start": "2026-09-13", "end": "2026-12-03", "n": "12", "time": "", "venue": "", "note": "MOD (3)", "status": "مؤكدة"}, {"id": "e31", "name": "BSD-53 دورة المباشرين التأسيسية", "ent": "مدرسة تدريب الإعاشة", "start": "2026-09-06", "end": "2026-11-12", "n": "7", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e32", "name": "BCK-52 دورة الطهاة التأسيسية", "ent": "مدرسة تدريب الإعاشة", "start": "2026-09-06", "end": "2026-11-12", "n": "12", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e33", "name": "BCK-53 دورة الطهاة التأسيسية", "ent": "مدرسة تدريب الإعاشة", "start": "2026-10-04", "end": "2026-12-10", "n": "8", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e34", "name": "RSD-30 دورة رقيب مباشر", "ent": "مدرسة تدريب الإعاشة", "start": "2026-10-11", "end": "2026-11-26", "n": "", "time": "", "venue": "", "note": "ملغاة لعدم اكتمال النصاب – استُبدلت بدورة الطهاة التأسيسية-53", "status": "ملغاة"}, {"id": "e35", "name": "RCK-50 دورة رقيب طاهي", "ent": "مدرسة تدريب الإعاشة", "start": "2026-10-11", "end": "2026-11-26", "n": "", "time": "", "venue": "", "note": "ملغاة لعدم اكتمال النصاب – استُبدلت بدورة الطهاة التأسيسية-53", "status": "ملغاة"}, {"id": "e36", "name": "RSC-44 دورة رقيب أمن", "ent": "مدرسة تدريب الاستخبارات والأمن والانضباط البحري", "start": "2026-10-04", "end": "2026-11-12", "n": "15", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e37", "name": "BLSC(RNO) دورة أمن المنشآت", "ent": "مدرسة تدريب الاستخبارات والأمن والانضباط البحري", "start": "2026-10-04", "end": "2026-10-29", "n": "", "time": "", "venue": "", "note": "ألغيت لعدم اكتمال النصاب", "status": "ملغاة"}, {"id": "e42", "name": "RLC-220 دورة القيادة والإدارة للرقباء", "ent": "مدرسة تدريب القيادة", "start": "2026-09-13", "end": "2026-10-22", "n": "41", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e43", "name": "RLC (EXCEPTIONAL) القيادة والإدارة الاستثنائية للعنصر النسائي", "ent": "مدرسة تدريب القيادة", "start": "2026-09-13", "end": "2026-09-24", "n": "27", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e44", "name": "RLC-221 دورة القيادة والإدارة للرقباء", "ent": "مدرسة تدريب القيادة", "start": "2026-10-25", "end": "2026-12-03", "n": "60", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e45", "name": "FOUNDATION YEAR-02 دورة السنة التأسيسية-02", "ent": "مدرسة تدريب البرامج التأسيسية والإنماء المهني", "start": "2026-01-04", "end": "2026-12-10", "n": "143", "time": "", "venue": "", "note": "الفصل الأول 2026", "status": "مؤكدة"}, {"id": "e46", "name": "ITC-05/26 دورة المهارات التدريبية", "ent": "مدرسة تدريب البرامج التأسيسية والإنماء المهني", "start": "2026-09-13", "end": "2026-10-01", "n": "15", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e47", "name": "ITC دورة المهارات التدريبية", "ent": "مدرسة تدريب البرامج التأسيسية والإنماء المهني", "start": "2026-10-18", "end": "2026-11-05", "n": "", "time": "", "venue": "", "note": "ملغاة", "status": "ملغاة"}, {"id": "e48", "name": "ITC-06/26 دورة المهارات التدريبية", "ent": "مدرسة تدريب البرامج التأسيسية والإنماء المهني", "start": "2026-11-15", "end": "2026-12-03", "n": "15", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e49", "name": "TMC(RNO)-02/26 دورة إدارة التدريب", "ent": "مدرسة تدريب البرامج التأسيسية والإنماء المهني", "start": "2026-11-22", "end": "2026-11-26", "n": "", "time": "", "venue": "", "note": "ملغاة – استُبدلت بدورة المهارات التدريبية", "status": "ملغاة"}, {"id": "e50", "name": "BTDC-36 دورة تصميم التدريب", "ent": "قسم تصميم التدريب", "start": "2026-10-18", "end": "2026-10-29", "n": "15", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e51", "name": "BFFDC-2/26 دورة الحريق التأسيسية", "ent": "مدرسة تدريب مكافحة الحريق والحرب الكيميائية", "start": "2026-09-20", "end": "2026-09-24", "n": "", "time": "", "venue": "", "note": "لم تُعقد الدورة", "status": "ملغاة"}, {"id": "e52", "name": "AFFDC-01/26 دورة الحريق المتقدمة", "ent": "مدرسة تدريب مكافحة الحريق والحرب الكيميائية", "start": "2026-10-04", "end": "2026-11-05", "n": "", "time": "", "venue": "", "note": "ألغيت لعدم اكتمال النصاب", "status": "ملغاة"}, {"id": "e53", "name": "NBCD-31 دورة الوقاية من أسلحة الدمار الشامل", "ent": "مدرسة تدريب مكافحة الحريق والحرب الكيميائية", "start": "2026-11-08", "end": "2026-11-19", "n": "25", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e54", "name": "FFBLC(SAF)-41 مكافحة حريق المنشآت", "ent": "مدرسة تدريب مكافحة الحريق والحرب الكيميائية", "start": "2026-10-18", "end": "2026-10-22", "n": "44", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e55", "name": "FF(A)-01 دورة الإطفاء المتقدمة", "ent": "مدرسة تدريب مكافحة الحريق والحرب الكيميائية", "start": "2026-09-13", "end": "2026-10-22", "n": "13", "time": "", "venue": "", "note": "", "status": "مؤكدة"}, {"id": "e58", "name": "دورة الجنود المستجدين-127", "ent": "مدرسة التدريب البحري العام", "start": "2026-03-29", "end": "2026-11-30", "n": "299", "time": "", "venue": "", "note": "COSSAF(6) أكاديمية الدراسات الاستراتيجية والدفاعية (2) – تنتهي نوفمبر 2026", "status": "مؤكدة"}, {"id": "e59", "name": "S&BC دورة البحث والتفتيش", "ent": "مدرسة العمليات (البحث والتفتيش)", "start": "2026-09-20", "end": "2026-09-24", "n": "", "time": "", "venue": "", "note": "لم تُعقد الدورة", "status": "ملغاة"}, {"id": "e60", "name": "S&BC دورة البحث والتفتيش", "ent": "مدرسة العمليات (البحث والتفتيش)", "start": "2026-10-04", "end": "2026-10-08", "n": "", "time": "", "venue": "", "note": "لم تُعقد الدورة", "status": "ملغاة"}, {"id": "e61", "name": "S&BC دورة البحث والتفتيش", "ent": "مدرسة العمليات (البحث والتفتيش)", "start": "2026-10-18", "end": "2026-10-22", "n": "", "time": "", "venue": "", "note": "لم تُعقد الدورة", "status": "ملغاة"}, {"id": "e62", "name": "S&BC-05/26 دورة البحث والتفتيش", "ent": "مدرسة العمليات (البحث والتفتيش)", "start": "2026-11-08", "end": "2026-11-12", "n": "10", "time": "", "venue": "", "note": "مشطوبة في الجدول – سيتم تأكيدها لاحقًا", "status": "قيد التأكيد"}, {"id": "e63", "name": "S&BC-06/26 دورة البحث والتفتيش", "ent": "مدرسة العمليات (البحث والتفتيش)", "start": "2026-11-22", "end": "2026-11-26", "n": "10", "time": "", "venue": "", "note": "مشطوبة في الجدول – سيتم تأكيدها لاحقًا", "status": "قيد التأكيد"}, {"id": "e64", "name": "دورة الغوص التأسيسية 04/2026 (BASIC DIVERS COURSE)", "ent": "مدرسة تدريب الغوص ومكافحة الألغام البحرية", "start": "2026-09-13", "end": "2026-10-22", "n": "8", "time": "", "venue": "", "note": "RAFO (8)", "status": "مؤكدة"}, {"id": "e65", "name": "دورة الغوص التأسيسية 05/2026 (BASIC DIVERS COURSE)", "ent": "مدرسة تدريب الغوص ومكافحة الألغام البحرية", "start": "2026-10-18", "end": "2026-11-30", "n": "8", "time": "", "venue": "", "note": "RNO(1) SSF(6) RAO(1)", "status": "مؤكدة"}, {"id": "e66", "name": "دورة مشرفي الغوص 04/2026 (DIVING SUPERVISOR COURSE)", "ent": "مدرسة تدريب الغوص ومكافحة الألغام البحرية", "start": "2026-09-13", "end": "2026-10-22", "n": "4", "time": "", "venue": "", "note": "ضباط RNO(3) RAFO(1)", "status": "مؤكدة"}, {"id": "e67", "name": "دورة التعامل مع المتفجرات والألغام البحرية التأسيسية 10/2026", "ent": "مدرسة تدريب الغوص ومكافحة الألغام البحرية", "start": "2026-10-04", "end": "2026-11-12", "n": "6", "time": "", "venue": "", "note": "مشطوبة في الجدول – سيتم تأكيدها لاحقًا", "status": "قيد التأكيد"}, {"id": "e68", "name": "دورة الغوص باستخدام مخاليط الغازات للبحرية السلطانية العمانية 11/2026", "ent": "مدرسة تدريب الغوص ومكافحة الألغام البحرية", "start": "2026-10-04", "end": "2026-11-12", "n": "8", "time": "", "venue": "", "note": "مشطوبة في الجدول – سيتم تأكيدها لاحقًا", "status": "قيد التأكيد"}, {"id": "e69", "name": "دورة مشرف غوص مخاليط الغازات للبحرية السلطانية العمانية 12/2026", "ent": "مدرسة تدريب الغوص ومكافحة الألغام البحرية", "start": "2026-10-04", "end": "2026-11-12", "n": "4", "time": "", "venue": "", "note": "مشطوبة في الجدول – سيتم تأكيدها لاحقًا", "status": "قيد التأكيد"}, {"id": "e70", "name": "ورشة عمل مشغل ومشرف غرفة معادلة الضغط (الثابتة) بقاعدة مسندم البحرية 13/2026", "ent": "مدرسة تدريب الغوص ومكافحة الألغام البحرية", "start": "2026-11-22", "end": "2026-12-03", "n": "6", "time": "", "venue": "", "note": "ورشة عمل", "status": "مؤكدة"}, {"id": "e71", "name": "دورة تأسيسية موسيقى (اللغة الإنجليزية) BAND FOUNDATION COURSE", "ent": "مدرسة التدريب الموسيقي", "start": "2026-01-04", "end": "2026-12-10", "n": "23", "time": "", "venue": "", "note": "اللغة الإنجليزية لتخصص الموسيقى", "status": "مؤكدة"}];var data=DEF.slice(),view="month",mi=0,editId=null,pendingDate=null;
+var hadStored=false;
+try{var r=localStorage.getItem(KEY);if(r){data=JSON.parse(r)||[];hadStored=true}}catch(e){}
+var REN={"مدرسة مكافحة الحريق والحرب الكيميائية": "مدرسة تدريب مكافحة الحريق والحرب الكيميائية", "مدرسة البرامج التأسيسية والإنماء المهني": "مدرسة تدريب البرامج التأسيسية والإنماء المهني", "مدرسة الغوص ومكافحة الألغام البحرية": "مدرسة تدريب الغوص ومكافحة الألغام البحرية", "مدرسة الاستخبارات والأمن والانضباط البحري": "مدرسة تدريب الاستخبارات والأمن والانضباط البحري", "أكاديمية السلطان قابوس البحرية": "مركز أكاديمية السلطان قابوس البحرية للدورات المهنية"};
+data.forEach(function(c){if(REN[c.ent])c.ent=REN[c.ent]});
+try{
+  var seen=JSON.parse(localStorage.getItem(KEY+"-seed")||"null");
+  if(!seen)seen=hadStored?DEF.filter(function(c){return c.id.charAt(0)==="d"}).map(function(c){return c.id}):[];
+  if(hadStored){var have={};data.forEach(function(c){have[c.id]=1});DEF.forEach(function(c){if(seen.indexOf(c.id)<0&&!have[c.id])data.push(JSON.parse(JSON.stringify(c)))})}
+  if(hadStored&&!localStorage.getItem(KEY+"-u1")){data=data.filter(function(c){return c.id!=="d7"});data.forEach(function(c){if(c.id==="d6"){c.end="2027-09-16";c.note="Semester-8"}if(c.id==="d9")c.start="2025-12-14"})}
+  localStorage.setItem(KEY+"-u1","1");
+  if(hadStored&&!localStorage.getItem(KEY+"-u2")){var UP2=["d2", "d6", "d8", "d9", "d27", "d28", "d29", "d30", "d37"];data.forEach(function(c){if(UP2.indexOf(c.id)>-1)c.status="مؤكدة"})}
+  localStorage.setItem(KEY+"-u2","1");
+  localStorage.setItem(KEY+"-seed",JSON.stringify(DEF.map(function(c){return c.id})));
+  localStorage.setItem(KEY,JSON.stringify(data));
+}catch(e){}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(data))}catch(e){}}
+function $(i){return document.getElementById(i)}
+var TERMS=[{id:"t26a",name:"الفصل الأول 2026",s:"2026-01-04",e:"2026-04-09"},{id:"t26b",name:"الفصل الثاني 2026",s:"2026-05-03",e:"2026-08-06"},{id:"t26c",name:"الفصل الثالث 2026",s:"2026-09-06",e:"2026-12-10"},{id:"t1",name:"الفصل الأول 2027",s:"2027-01-03",e:"2027-04-08"},{id:"t2",name:"الفصل الثاني 2027",s:"2027-05-02",e:"2027-08-05"},{id:"t3",name:"الفصل الثالث 2027",s:"2027-09-05",e:"2027-12-09"}],curT="t26c",TERM_S="",TERM_E="",MS=[];
+try{var rt=localStorage.getItem("courses-terms-v1");if(rt){var ot=JSON.parse(rt);if(ot&&ot.terms&&ot.terms.length){TERMS=ot.terms;curT=ot.cur||TERMS[0].id}}}catch(e){}
+try{if(!localStorage.getItem("courses-terms-m2")){if(!TERMS.some(function(t){return t.id==="t26c"}))TERMS.unshift({id:"t26c",name:"الفصل الثالث 2026",s:"2026-09-06",e:"2026-12-10"});curT="t26c";localStorage.setItem("courses-terms-m2","1");persistT()}}catch(e){}
+try{if(!localStorage.getItem("courses-terms-m3")){var D3={t26a:["2026-01-04","2026-04-09"],t26b:["2026-05-03","2026-08-06"],t26c:["2026-09-06","2026-12-10"],t1:["2027-01-03","2027-04-08"],t2:["2027-05-02","2027-08-05"],t3:["2027-09-05","2027-12-09"]},N3={t26a:"الفصل الأول 2026",t26b:"الفصل الثاني 2026",t26c:"الفصل الثالث 2026",t1:"الفصل الأول 2027",t2:"الفصل الثاني 2027",t3:"الفصل الثالث 2027"},keep=TERMS.filter(function(t){return !D3[t.id]});TERMS=Object.keys(D3).map(function(k){return{id:k,name:N3[k],s:D3[k][0],e:D3[k][1]}}).concat(keep);if(!TERMS.some(function(t){return t.id===curT}))curT="t26c";localStorage.setItem("courses-terms-m3","1");persistT()}}catch(e){}
+function persistT(){try{localStorage.setItem("courses-terms-v1",JSON.stringify({terms:TERMS,cur:curT}))}catch(e){}}
+function curTerm(){return TERMS.filter(function(t){return t.id===curT})[0]||TERMS[0]}
+function fillTerms(){$("ts").innerHTML=TERMS.map(function(t){return'<option value="'+esc(t.id)+'"'+(t.id===curTerm().id?" selected":"")+">"+esc(t.name)+"</option>"}).join("")}
+function applyTerm(){
+  var t=curTerm();curT=t.id;TERM_S=t.s||"";TERM_E=t.e||"";MS=[];mi=0;selDay=null;
+  if(TERM_S&&TERM_E&&TERM_S<=TERM_E){var a=TERM_S.split("-"),b=TERM_E.split("-"),y=+a[0],m=+a[1]-1;while(y<+b[0]||(y===+b[0]&&m<=+b[1]-1)){MS.push({y:y,m:m});m++;if(m>11){m=0;y++}}}
+  else{TERM_S="";TERM_E=""}
+  if(MS.length&&TODAY>=TERM_S&&TODAY<=TERM_E){selDay=TODAY;for(var q=0;q<MS.length;q++){if(MS[q].y+"-"+String(MS[q].m+1).padStart(2,"0")===TODAY.slice(0,7))mi=q}}
+  $("h1t").textContent="تقويم الدورات – "+t.name;
+  $("subt").textContent=MS.length?"من "+fmt(TERM_S)+" إلى "+fmt(TERM_E)+" · اضغط على أي يوم لعرض دوراته، وعلى الدورة لتعديلها.":"لم تُحدَّد تواريخ هذا الفصل بعد.";
+}
+function ymd(d){return iso(d.getFullYear(),d.getMonth()+1,d.getDate())}
+var TODAY=ymd(new Date());
+var EX={"قيد التدريب":"var(--s1)","قادمة":"var(--s2)","منتهية":"var(--s5)"};
+function offc(c){return c.status==="ملغاة"||c.status==="مؤجلة"}
+function exl(c){if(c.status==="ملغاة")return"ملغاة";if(c.status==="مؤجلة")return"مؤجلة";return c.end<TODAY?"منتهية":c.start>TODAY?"قادمة":"قيد التدريب"}
+function exc(c){var l=exl(c);return EX[l]||ST[l]||"var(--s3)"}
+function trowH(t){return'<div class="trow" data-tid="'+esc(t.id)+'"><label>اسم الفصل<input class="tn" value="'+esc(t.name)+'"></label><label>البداية<input class="ts1" type="date" value="'+esc(t.s)+'"></label><label>النهاية<input class="te1" type="date" value="'+esc(t.e)+'"></label><button class="btn ghost rmT" type="button">حذف</button></div>'}
+function openT(){$("tl2").innerHTML=TERMS.map(trowH).join("");$("terr").textContent="";$("mask2").classList.add("on")}
+function iso(y,m,d){return y+"-"+String(m).padStart(2,"0")+"-"+String(d).padStart(2,"0")}
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function fmt(s){var p=s.split("-");return p[2]+"/"+p[1]+"/"+p[0]}
+function vis(){var e=$("fe").value,s=$("fs").value;return data.filter(function(c){if(e&&c.ent!==e)return false;if(!s)return !offc(c);if(s==="all")return true;if(s==="off")return offc(c);return exl(c)===s})}
+function visE(){var e=$("fe").value;return data.filter(function(c){return !e||c.ent===e})}
+function ents(){var s={},k=[];DEF.forEach(function(c){if(k.indexOf(c.ent)<0)k.push(c.ent)});k.splice(k.indexOf("مركز أكاديمية السلطان قابوس البحرية للدورات المهنية")+1,0,"مدرسة تدريب الرياضة");k.concat(data.map(function(c){return c.ent})).forEach(function(x){if(x)s[x]=1});return Object.keys(s)}
+function fillEnts(){var cur=$("fe").value,o=ents();$("fe").innerHTML='<option value="">كل الجهات</option>'+o.map(function(x){return"<option>"+esc(x)+"</option>"}).join("");$("fe").value=o.indexOf(cur)>-1?cur:"";$("ents").innerHTML=o.map(function(x){return"<option value=\""+esc(x)+"\">"}).join("")}
+function active(d){return vis().filter(function(c){return c.start<=d&&d<=c.end})}
+
+$("fSt").innerHTML=Object.keys(ST).map(function(k){return"<option>"+k+"</option>"}).join("");
+$("legend").innerHTML="<b>الحالة:</b>"+Object.keys(ST).map(function(k){return'<span style="--c:'+ST[k]+'">'+k+"</span>"}).join("")+"<b>التنفيذ (حسب تاريخ اليوم):</b>"+Object.keys(EX).map(function(k){return'<span style="--c:'+EX[k]+'">'+k+"</span>"}).join("");
+
+function renderAlerts(){
+  var l=new Date(TODAY+"T00:00:00");l.setDate(l.getDate()+7);var L=ymd(l),t0=new Date(TODAY+"T00:00:00"),v=visE().filter(function(c){return !offc(c)});
+  function dd(s){return Math.round((new Date(s+"T00:00:00")-t0)/864e5)}
+  function lst(a,f){return a.map(function(c){return'<button class="pc" style="--c:'+exc(c)+'" data-id="'+c.id+'"><i></i><span>'+esc(c.name)+' <span class="more">('+f(c)+")</span></span></button>"}).join("")}
+  var en=v.filter(function(c){return c.start<=TODAY&&c.end>=TODAY&&c.end<=L}).sort(function(a,b){return a.end<b.end?-1:a.end>b.end?1:0});
+  var st=v.filter(function(c){return c.start>TODAY&&c.start<=L}).sort(function(a,b){return a.start<b.start?-1:a.start>b.start?1:0});
+  if(!en.length&&!st.length){$("alerts").style.display="none";return}
+  $("alerts").style.display="";
+  $("alerts").innerHTML='<h4>تنبيهات الأيام السبعة القادمة (اليوم: '+fmt(TODAY)+')</h4><div class="al2"><div><div class="cg" style="color:var(--s4)">تنتهي قريبًا ('+en.length+")</div>"+(en.length?lst(en,function(c){var n=dd(c.end);return n===0?"تنتهي اليوم":"تنتهي بعد "+n+" أيام – "+fmt(c.end)}):'<div class="note" style="margin:0">لا شيء.</div>')+'</div><div><div class="cg" style="color:var(--s1)">تبدأ قريبًا ('+st.length+")</div>"+(st.length?lst(st,function(c){return"تبدأ بعد "+dd(c.start)+" أيام – "+fmt(c.start)}):'<div class="note" style="margin:0">لا شيء.</div>')+"</div></div>";
+}
+function sumN(a){return a.reduce(function(s,c){var v=parseInt(c.n,10);return s+(isNaN(v)?0:v)},0)}
+function wkRange(k,off){var b=new Date(k+"T00:00:00");b.setDate(b.getDate()-b.getDay()+off*7);var e=new Date(b);e.setDate(e.getDate()+4);return{ks:ymd(b),ke:ymd(e),l:b.getDate()+"/"+(b.getMonth()+1)+" – "+e.getDate()+"/"+(e.getMonth()+1)}}
+function inWk(a,w){return a.filter(function(c){return c.start<=w.ke&&c.end>=w.ks})}
+function updateTrainees(){
+  var v=visE().filter(function(c){return c.status==="مؤكدة"}),tc=v.filter(function(c){return c.start<=TERM_E&&c.end>=TERM_S}),unk=tc.filter(function(c){return isNaN(parseInt(c.n,10))}).length;
+  $("sTrT").textContent=sumN(tc);
+  $("sTrTl").textContent="متدرب خلال الفصل كاملًا"+(unk?" (بدون "+unk+" دورات عددها غير محدد)":"");
+  var k=selDay||TERM_S,w0=wkRange(k,0),w1=wkRange(k,1);
+  $("sTrW").textContent=sumN(inWk(v,w0));$("sTrWl").textContent="متدرب هذا الأسبوع ("+w0.l+")";
+  $("sTrN").textContent=sumN(inWk(v,w1));$("sTrNl").textContent="متدرب الأسبوع القادم ("+w1.l+")";
+  var offs=visE().filter(function(c){return offc(c)&&c.start<=TERM_E&&c.end>=TERM_S}),can=offs.filter(function(c){return c.status==="ملغاة"}).length;
+  $("sOff").textContent=offs.length;$("sOffl").textContent="ملغاة / مؤجلة (ملغاة "+can+" · مؤجلة "+(offs.length-can)+")";
+  updateSchoolStat();
+}
+function updateSchoolStat(){
+  if(!TERM_S)return;
+  var cur=$("ss").value,o=ents();
+  $("ss").innerHTML='<option value="">كل المدارس</option>'+o.map(function(x){return"<option>"+esc(x)+"</option>"}).join("");$("ss").value=o.indexOf(cur)>-1?cur:"";
+  var sc=$("ss").value,a=data.filter(function(c){return c.status==="مؤكدة"&&(!sc||c.ent===sc)}),tm=a.filter(function(c){return c.start<=TERM_E&&c.end>=TERM_S});
+  var k=selDay||TERM_S,w0=wkRange(k,0),w1=wkRange(k,1),a0=inWk(tm,w0),a1=inWk(tm,w1);
+  function cd(n,l){return"<div><b>"+n+"</b><span>"+l+"</span></div>"}
+  $("sres").innerHTML=cd(sumN(tm),"متدرب خلال الفصل كاملًا ("+tm.length+" دورة)")+cd(sumN(a0),"متدرب هذا الأسبوع ("+w0.l+") · "+a0.length+" دورة")+cd(sumN(a1),"متدرب الأسبوع القادم ("+w1.l+") · "+a1.length+" دورة");
+}
+var FIXED=[[1,5,"يوم شرطة عُمان السلطانية"],[1,11,"يوم تولّي السلطان مقاليد الحكم"],[1,25,"يوم سلاح الجو السلطاني العُماني"],[2,9,"يوم الصناعة العُمانية"],[2,24,"يوم المعلم العُماني"],[4,30,"يوم اللوجستيات العُماني"],[7,23,"يوم النهضة العُمانية"],[10,17,"يوم المرأة العُمانية"],[10,26,"يوم الشباب العُماني"],[10,31,"يوم الزراعة العُماني"],[11,1,"يوم الحرس السلطاني العُماني"],[11,3,"يوم البحرية السلطانية العُمانية"],[11,20,"اليوم الوطني العُماني"],[11,21,"اليوم الوطني العُماني"],[12,7,"يوم المتقاعدين"],[12,11,"يوم قوات السلطان المسلحة"]];
+var REL=[{m:7,d:27,n:"الإسراء والمعراج"},{m:9,d:1,n:"بداية شهر رمضان المبارك"},{m:10,d:1,n:"عيد الفطر المبارك"},{m:12,d:10,n:"عيد الأضحى المبارك"},{m:1,d:1,n:"رأس السنة الهجرية"},{m:3,d:12,n:"المولد النبوي الشريف"}];
+var ANN={y:new Date().getFullYear(),sel:null,open:false,tm:null},HF=null,HAR=null;
+["islamic-umalqura","islamic-civil"].some(function(c){try{var f=new Intl.DateTimeFormat("en-u-ca-"+c+"-nu-latn",{year:"numeric",month:"numeric",day:"numeric",timeZone:"UTC"});if(f.formatToParts(new Date(Date.UTC(2027,1,8,12))).some(function(x){return x.type==="month"})){HF=f;HAR=new Intl.DateTimeFormat("ar-u-ca-"+c+"-nu-latn",{day:"numeric",month:"long",year:"numeric",timeZone:"UTC"});return true}}catch(e){}return false});
+function hij(dt){if(!HF)return null;var o={};HF.formatToParts(dt).forEach(function(p){if(p.type==="year"||p.type==="month"||p.type==="day")o[p.type]=parseInt(p.value,10)});return o}
+function hdesc(dt){try{return HAR?HAR.format(dt):""}catch(e){return""}}
+var ONCE=[[2027,3,30,"يوم تفتيش القائد"]],OCC=[],OCOL={red:"#c62f2f",yel:"#f2c200",blue:"var(--occ)",grn:"var(--s1)"};
+try{OCC=JSON.parse(localStorage.getItem("courses-occ-v1")||"[]")}catch(e){OCC=[]}
+function saveOCC(){try{localStorage.setItem("courses-occ-v1",JSON.stringify(OCC))}catch(e){}}
+function evc(e){return e.t==="r"?"var(--s1)":e.t==="n"?"var(--occ)":OCOL[e.t.slice(2)]||"var(--occ)"}
+function yearEvents(y){
+  var ev={},rm={};
+  function add(k,n,t){(ev[k]=ev[k]||[]).push({n:n,t:t})}
+  FIXED.forEach(function(f){add(iso(y,f[0],f[1]),f[2],"n")});
+  OCC.forEach(function(o){var q=o.k.split("-");if(o.rep){if(+q[0]<=y)add(iso(y,+q[1],+q[2]),o.n,"c:"+o.c)}else if(+q[0]===y)add(o.k,o.n,"c:"+o.c)});
+  ONCE.forEach(function(o){if(o[0]===y)add(iso(y,o[1],o[2]),o[3],"n")});
+  if(HF){var d=new Date(Date.UTC(y,0,1,12));while(d.getUTCFullYear()===y){var k=iso(y,d.getUTCMonth()+1,d.getUTCDate()),hh=hij(d);if(hh){REL.forEach(function(r){if(hh.month===r.m&&hh.day===r.d)add(k,r.n,"r")});if(hh.month===9)rm[k]=1}d.setUTCDate(d.getUTCDate()+1)}}
+  return{ev:ev,rm:rm};
+}
+function oform(){
+  var d=ANN.sel||iso(ANN.y,1,1),sw=[["red","أحمر"],["yel","أصفر"],["blue","سماوي"],["grn","أخضر"]];
+  return'<div class="ofm"><div class="row"><input type="date" id="od" value="'+d+'" aria-label="التاريخ"><input type="text" id="on" maxlength="60" placeholder="اسم المناسبة" aria-label="اسم المناسبة"></div><div class="row"><span style="font-size:12px;color:var(--mute)">اللون:</span><div class="csw">'+sw.map(function(s,i){return'<label title="'+s[1]+'"><input type="radio" name="oc" value="'+s[0]+'"'+(i===0?" checked":"")+'><i style="background:'+OCOL[s[0]]+'"></i>'+s[1]+"</label>"}).join("")+'</div><label style="font-size:12px"><input type="checkbox" id="orp"> تتكرر كل سنة</label><button class="btn" id="osave" type="button">حفظ</button><span class="note" id="oerr" style="margin:0"></span></div>'+
+  (OCC.length?'<ul class="olist">'+OCC.map(function(o,i){return'<li><i style="background:'+OCOL[o.c]+'"></i><span>'+fmt(o.k)+" – "+esc(o.n)+(o.rep?" (سنويًا)":"")+'</span><button type="button" data-od="'+i+'" aria-label="حذف">✕</button></li>'}).join("")+"</ul>":"")+"</div>"
+}
+function renderYear(){
+  var TM=TERMS.filter(function(t){return t.id===ANN.tm})[0]||null;if(!TM)ANN.tm=null;
+  var y=ANN.y,E=yearEvents(y),v=vis(),cnt={},mx=1,h="",ek=Object.keys(E.ev).sort();
+  for(var m=1;m<=12;m++){var dm=new Date(Date.UTC(y,m,0)).getUTCDate();for(var d=1;d<=dm;d++){var k=iso(y,m,d),n=v.filter(function(c){return c.start<=k&&c.end>=k}).length;cnt[k]=n;if(n>mx)mx=n}}
+  for(var m2=1;m2<=12;m2++){
+    var dm2=new Date(Date.UTC(y,m2,0)).getUTCDate(),f=new Date(Date.UTC(y,m2-1,1,12)).getUTCDay(),c="";
+    DOW.forEach(function(n){c+="<b>"+n.charAt(0)+(n==="الأحد"?"":"")+"</b>"});
+    for(var i=0;i<f;i++)c+="<span></span>";
+    for(var d2=1;d2<=dm2;d2++){
+      var k2=iso(y,m2,d2),w=(f+d2-1)%7,es=E.ev[k2]||[],cl="yc"+(w>4?" we":"")+(es.length?" ev":"")+(es.length&&es.every(function(e){return e.t==="r"})?" rl":"")+(function(){var c=es.filter(function(e){return e.t.charAt(0)==="c"})[0];return c?" oc-"+c.t.slice(2):""})()+(E.rm[k2]?" rm":"")+(k2===TODAY?" td":"")+(k2===ANN.sel?" sel":"")+(TM&&TM.s&&TM.e&&(k2<TM.s||k2>TM.e)?" dim":"");
+      var st=cnt[k2]?' style="background:color-mix(in srgb,var(--gold) '+Math.round(8+cnt[k2]/mx*40)+'%,var(--card))"':"";
+      c+='<button class="'+cl+'" data-k="'+k2+'"'+st+(es.length?' title="'+esc(es.map(function(e){return e.n}).join("، "))+'"':(function(){var t=hdesc(new Date(Date.UTC(y,m2-1,d2,12)));return t?' title="'+esc(t)+'"':""})())+'>'+d2+"</button>";
+    }
+    h+='<div class="ym"><h4>'+MN[m2-1]+'</h4><div class="yd">'+c+"</div></div>";
+  }
+  var det="";
+  if(ANN.sel&&ANN.sel.slice(0,4)===String(y)){
+    var q=ANN.sel.split("-"),dt=new Date(Date.UTC(+q[0],+q[1]-1,+q[2],12)),a=active(ANN.sel),g={};
+    a.forEach(function(x){g[x.ent||"بدون جهة"]=(g[x.ent||"بدون جهة"]||0)+1});
+    det='<div class="evl"><h3>'+DOW[dt.getUTCDay()]+" "+(+q[2])+" "+MN[+q[1]-1]+" "+q[0]+(hdesc(dt)?" · "+hdesc(dt):"")+"</h3>"+
+      (E.ev[ANN.sel]||[]).map(function(e){return'<div class="er"><i style="background:'+(evc(e))+'"></i><b>'+esc(e.n)+"</b></div>"}).join("")+
+      '<div class="note" style="margin:6px 0 0">'+(a.length?a.length+" دورة نشطة في هذا اليوم: "+Object.keys(g).sort(function(x,z){return g[z]-g[x]}).map(function(k){return esc(k)+" ("+g[k]+")"}).join("، "):"لا توجد دورات نشطة في هذا اليوم.")+"</div></div>";
+  }
+  var lst='<div class="evl"><h3>مناسبات سنة '+y+'</h3>'+ek.map(function(k){var q=k.split("-"),dt=new Date(Date.UTC(+q[0],+q[1]-1,+q[2],12));return E.ev[k].map(function(e){return'<div class="er"><i style="background:'+(evc(e))+'"></i><b>'+(+q[2])+" "+MN[+q[1]-1]+" – "+DOW[dt.getUTCDay()]+"</b><span>"+esc(e.n)+"</span><small>"+(e.t==="r"?hdesc(dt):"")+"</small></div>"}).join("")}).join("")+
+    '<div class="note">المناسبات الوطنية ثابتة بالتاريخ الميلادي. المناسبات الدينية (الإسراء والمعراج، رمضان، عيد الفطر، عيد الأضحى، رأس السنة الهجرية، المولد النبوي) تُحسب لكل سنة من التقويم الهجري (أم القرى) وقد تختلف بيوم عن إعلان الرؤية الرسمي، فيُعتمد ما تعلنه الجهات الرسمية. أيام رمضان مُسطّرة بخط أخضر سفلي.</div></div>';
+  $("annv").innerHTML='<div class="ah"><button class="btn ghost" id="ayn" type="button" aria-label="السنة التالية">›</button><h2>'+y+'</h2><button class="btn ghost" id="ayp" type="button" aria-label="السنة السابقة">‹</button><input id="ay" type="number" value="'+y+'" aria-label="السنة"><button class="btn ghost" id="ayt" type="button">السنة الحالية</button><button class="btn" id="oadd" type="button" aria-expanded="'+(ANN.form?"true":"false")+'">＋ إضافة مناسبة</button></div>'+(ANN.form?oform():"")+
+    '<div class="tchips" role="group" aria-label="إبراز فصل">'+TERMS.filter(function(t){return t.s&&t.e&&t.s.slice(0,4)<=String(y)&&t.e.slice(0,4)>=String(y)}).map(function(t){return'<button type="button" data-tm="'+esc(t.id)+'" aria-pressed="'+(t.id===ANN.tm)+'"><b>'+esc(t.name)+'</b><span>'+fmt(t.s)+' – '+fmt(t.e)+'</span></button>'}).join("")+'</div>'+
+    '<div class="legend"><span style="--c:var(--occ)">مناسبة رسمية</span><span style="--c:var(--s1)">مناسبة دينية</span><span style="--c:var(--gold)">اليوم (شعلة متحركة)</span><span style="--c:var(--ink)">اللون الذهبي في الخلية = عدد الدورات النشطة (الأغمق = الأكثر)</span></div><div class="yg">'+h+"</div>"+det+lst;
+}
+var NTO=false,NT={cur:null,until:0,q:[],t1:null,t2:null,t3:null},CNT=[];try{CNT=JSON.parse(localStorage.getItem("courses-notes-v1")||"[]")}catch(e){CNT=[]}
+function saveCNT(){try{localStorage.setItem("courses-notes-v1",JSON.stringify(CNT))}catch(e){}}
+function ntList(){
+  var out=[],cf=data.filter(function(c){return c.status==="مؤكدة"&&c.start<=TERM_E&&c.end>=TERM_S}),nn=function(n,o,t,m,k){return n===1?o:n===2?t:n+" "+(n<=10?m:k)};
+  var dn=cf.filter(function(c){return c.end<TODAY}),g={};dn.forEach(function(c){var e=c.ent||"";if(e){var o=g[e]||(g[e]={n:0,t:0});o.n++;o.t+=parseInt(c.n,10)||0}});
+  Object.keys(g).sort(function(a,b){return g[b].n-g[a].n||g[b].t-g[a].t}).slice(0,2).forEach(function(e){out.push("شكرًا وتقديرًا لقائد "+e+" على إتمام "+nn(g[e].n,"دورة واحدة","دورتين","دورات","دورة")+" هذا الفصل"+(g[e].t?" بواقع "+g[e].t+" "+tw(g[e].t):"")+".")});
+  var w0=wkRange(TODAY,0),w1=wkRange(TODAY,1),en=cf.filter(function(c){return c.end>=w0.ks&&c.end<=w0.ke}),sn=cf.filter(function(c){return c.start>=w1.ks&&c.start<=w1.ke});
+  if(en.length)out.push("هذا الأسبوع "+(en.length===1?"تنتهي دورة واحدة":en.length===2?"تنتهي دورتان":"تنتهي "+nn(en.length,"","","دورات","دورة"))+" ويتخرج "+sumN(en)+" "+tw(sumN(en))+"، بارك الله جهود المدربين.");
+  if(sn.length)out.push("الأسبوع القادم ("+w1.l+") "+(sn.length===1?"تبدأ دورة واحدة":sn.length===2?"تبدأ دورتان":"تبدأ "+nn(sn.length,"","","دورات","دورة"))+" بإجمالي "+sumN(sn)+" "+tw(sumN(sn))+"، فلتكتمل الجاهزية.");
+  var nd=data.filter(function(c){return !offc(c)&&c.start>=TODAY&&c.start<=addDays(TODAY,14)&&c.status!=="مؤكدة"});
+  if(nd.length)out.push("تذكير: "+(nd.length===1?"دورة واحدة تبدأ":nd.length===2?"دورتان تبدأان":nn(nd.length,"","","دورات","دورة")+" تبدأ")+" خلال 14 يومًا ولم تُؤكَّد بعد.");
+  if(TODAY>=TERM_S&&TODAY<=TERM_E){var a=new Date(TERM_S+"T00:00:00"),b=new Date(TERM_E+"T00:00:00"),n=new Date(TODAY+"T00:00:00"),p=Math.round((n-a)/(b-a)*100),r=Math.round((b-n)/864e5);out.push("مضى "+p+"% من الفصل، وتبقى "+r+" يومًا. واصلوا العمل بهمّة.")}
+  return CNT.concat(out)
+}
+function tw(n){return n>=3&&n<=10?"متدربين":"متدربًا"}
+function addDays(k,n){var d=new Date(k+"T00:00:00");d.setDate(d.getDate()+n);return ymd(d)}
+function ntShow(m){var el=$("nt");NT.cur=m;NT.until=Date.now()+10000;if(!el)return;el.innerHTML='<div class="nm" role="status"><span>🔔</span><span>'+esc(m)+"</span></div>"}
+function ntHide(){var el=$("nt");NT.cur=null;if(!el)return;var n=el.firstChild;if(n&&n.classList){n.classList.add("out");setTimeout(function(){if(!NT.cur)el.innerHTML=""},600)}else el.innerHTML=""}
+function ntRun(){
+  clearTimeout(NT.t1);clearTimeout(NT.t2);clearTimeout(NT.t3);
+  var q=ntList().slice(0,5),i=0;if(!q.length)return;
+  function step(){if(i>=q.length)return;ntShow(q[i++]);NT.t1=setTimeout(function(){ntHide();NT.t2=setTimeout(step,6000)},10000)}
+  step()
+}
+function ntRestore(){var el=$("nt");if(el&&NT.cur&&Date.now()<NT.until)el.innerHTML='<div class="nm" role="status"><span>🔔</span><span>'+esc(NT.cur)+"</span></div>"}
+function ntMgr(){var el=$("ntm");if(!el)return;if(el.dataset.open!=="1"){el.innerHTML="";return}
+  el.innerHTML='<input id="nti" maxlength="140" placeholder="اكتب إشعارًا (مثال: شكرًا لقائد مدرسة … على …) ثم اضغط Enter" aria-label="نص الإشعار"><ul>'+CNT.map(function(m,i){return"<li><span>"+esc(m)+'</span><button type="button" data-nd="'+i+'" aria-label="حذف">✕</button></li>'}).join("")+"</ul>"}
+var CM="c";try{CM=localStorage.getItem("courses-cm-v1")==="t"?"t":"c"}catch(e){}
+function renderCharts(){
+  var el=$("chs");if(!MS.length||!TERM_S){el.innerHTML="";el.style.display="none";return}
+  el.style.display="";
+  var cf=visE().filter(function(c){return c.status==="مؤكدة"&&c.start<=TERM_E&&c.end>=TERM_S});
+  var ws=[],s=new Date(TERM_S+"T00:00:00");s.setDate(s.getDate()-s.getDay());
+  while(ymd(s)<=TERM_E&&ws.length<60){var b=wkRange(ymd(s),0);ws.push({w:b,t:sumN(inWk(cf,b))});s.setDate(s.getDate()+7)}
+  var act=ws.filter(function(x){return x.t>0}),mx=Math.max.apply(null,ws.map(function(x){return x.t}).concat([1])),lo=act.length>1?Math.min.apply(null,act.map(function(x){return x.t})):-1,hi=act.length>1?mx:-1;
+  var lw=act.filter(function(x){return x.t===lo})[0],hw=act.filter(function(x){return x.t===hi})[0];
+  var bars=ws.map(function(x){var cur=TODAY>=x.w.ks&&TODAY<=x.w.ke,cl=(x.t===lo?"lo ":"")+(x.t===hi?"hi ":"")+(cur?"nw":"");
+    return'<div class="'+cl+'" title="'+x.w.l+' : '+x.t+' متدرب"><em>'+(x.t||"")+'</em><i style="height:'+(x.t/mx*100*0.78)+'%"></i></div>'}).join("");
+  var lab=ws.map(function(x,i){return"<span><b>"+(i+1)+"</b>"+x.w.l.split(" – ")[0]+"</span>"}).join("");
+  var w1='<div class="chc"><h3>المتدربون أسبوعيًا خلال الفصل</h3><div class="sub">الدورات المؤكدة فقط'+(lw?" · <b style=\"color:var(--s1)\">الأخف: أسبوع "+(ws.indexOf(lw)+1)+" ("+lw.t+")</b> · <b style=\"color:var(--s4)\">الأعلى: أسبوع "+(ws.indexOf(hw)+1)+" ("+hw.t+")</b>":"")+"</div>"+(act.length?'<div class="wb">'+bars+'</div><div class="wl">'+lab+"</div>":'<div class="note">لا توجد دورات مؤكدة في هذا الفصل.</div>')+'<div class="nt" id="nt" aria-live="polite"></div><div class="ntb"><button type="button" id="ntr">🔔 إشعارات تذكيرية</button><button type="button" id="ntg">إضافة إشعار</button></div><div class="ntm" id="ntm" data-open="'+(NTO?1:0)+'"></div></div>';
+  var all=data.filter(function(c){return c.status==="مؤكدة"&&c.start<=TERM_E&&c.end>=TERM_S}),cnt={};
+  ents().forEach(function(e){cnt[e]=0});all.forEach(function(c){if(c.ent)cnt[c.ent]=(cnt[c.ent]||0)+1});
+  var X=CM==="t"?2:1,W=CM==="t"?"متدربين":"دورات",U=CM==="t"?"متدرب":"دورة";
+  var arr=Object.keys(cnt).map(function(k){return[k,cnt[k],sumN(all.filter(function(c){return c.ent===k}))]}),zero=arr.filter(function(a){return !a[X]}).map(function(a){return a[0]}),low=arr.filter(function(a){return a[X]}).sort(function(a,b){return a[X]-b[X]||(a[0]<b[0]?-1:1)}).slice(0,6);
+  var COL=["#a4262c","#b7852b","#2a5aa0","#2f6b3a","#7a4a9a","#6b7280"];
+  var TG='<button type="button" class="cmt" data-cm="1" title="التبديل بين عدد الدورات وعدد المتدربين" aria-label="التبديل بين عدد الدورات وعدد المتدربين"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4v14M3 14l4 4 4-4M17 20V6M13 10l4-4 4 4"/></svg></button>';
+  function donut(title,sub,list,extra){var tot=list.reduce(function(s,a){return s+a[X]},0),R=44,C=2*Math.PI*R,off=0,svg="";
+    list.forEach(function(a,i){var L=a[X]/tot*C;svg+='<circle r="'+R+'" cx="60" cy="60" fill="none" stroke="'+COL[i]+'" stroke-width="22" stroke-dasharray="'+L+" "+(C-L)+'" stroke-dashoffset="'+(-off)+'" transform="rotate(-90 60 60)"><title>'+esc(a[0])+" : "+a[2]+" متدرب · "+a[1]+" دورة</title></circle>";off+=L});
+    return'<div class="chc"><h3>'+title+TG+'</h3><div class="sub">'+sub+"</div>"+(list.length?'<div class="dn"><svg width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="'+title+'">'+svg+'<text x="60" y="58" text-anchor="middle" font-size="20" font-weight="700" fill="currentColor">'+tot+'</text><text x="60" y="74" text-anchor="middle" font-size="9" fill="currentColor">'+U+'</text></svg><ul>'+list.map(function(a,i){return'<li title="'+esc(a[0])+' : '+a[2]+' متدرب · '+a[1]+' دورة" style="cursor:help"><i style="background:'+COL[i]+'"></i><span>'+esc(a[0])+"</span><b>"+a[X]+"</b></li>"}).join("")+"</ul></div>":'<div class="note">لا توجد دورات مؤكدة.</div>')+(extra||"")+"</div>"}
+  var hiL=arr.filter(function(a){return a[X]}).sort(function(a,b){return b[X]-a[X]||(a[0]<b[0]?-1:1)}).slice(0,6);
+  var w2=donut("المدارس الأقل "+W,"أقل 6 مدارس (غير الفارغة) · الدورات المؤكدة في الفصل · الترتيب بحسب عدد "+W,low,zero.length?'<div class="note" style="margin-top:8px">'+(CM==="t"?"بلا أي متدربين في الدورات المؤكدة (":"بلا أي دورة مؤكدة (")+zero.length+"): "+zero.map(esc).join("، ")+"</div>":"");
+  var w0=donut("المدارس الأعلى "+W,"أعلى 6 مدارس · الدورات المؤكدة في الفصل · الترتيب بحسب عدد "+W,hiL,"");
+  el.innerHTML=w0+w1+w2;ntRestore();ntMgr();if(!NT.started){NT.started=1;ntRun()}
+}
+function render(){
+  fillEnts();renderAlerts();
+  if(!MS.length){$("sTotal").textContent=0;$("sMonth").textContent=0;$("sOff").textContent=0;$("sTrT").textContent=0;$("sTrW").textContent=0;$("sTrN").textContent=0;$("sres").innerHTML="";$("chs").innerHTML="";$("nav").style.display="none";$("view").innerHTML='<div class="tbl"><div class="empty">لم تُحدَّد تواريخ هذا الفصل بعد.<br><br><button class="btn" id="goset">تحديد تواريخ الفصل</button></div></div>';return}
+  var ta=visE().filter(function(c){return c.start<=TERM_E&&c.end>=TERM_S});$("sTotal").textContent=ta.length;$("sTotall").textContent="إجمالي الدورات في هذا الفصل (منها "+ta.filter(function(c){return c.status==="مؤكدة"}).length+" مؤكدة)";
+  var Y=MS[mi].y,m=MS[mi].m+1,last=new Date(Y,m,0).getDate();
+  $("sMonth").textContent=visE().filter(function(c){return c.status==="مؤكدة"}).filter(function(c){return c.start<=iso(Y,m,last)&&c.end>=iso(Y,m,1)}).length;
+  $("nav").style.display=view==="month"?"flex":"none";
+  $("q").style.display=view==="list"?"":"none";
+  document.querySelectorAll(".tabs button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.v===view)});
+  $("mt").textContent=MN[MS[mi].m]+" "+MS[mi].y;
+  $("prev").disabled=mi===0;$("next").disabled=mi===MS.length-1;
+  if(view==="month")renderMonth();else if(view==="list")renderList();else renderWeeks();
+  updateTrainees();
+  renderCharts();
+  if(ANN.open)renderYear();
+}
+var selDay=null;
+function renderMonth(){
+  var Y=MS[mi].y,m=MS[mi].m+1,last=new Date(Y,m,0).getDate(),first=new Date(Y,m-1,1).getDay(),h="",cn={},mn=1e9,mx=0;
+  for(var d=1;d<=last;d++){var k=iso(Y,m,d);if(k>=TERM_S&&k<=TERM_E){cn[k]=active(k).length;mn=Math.min(mn,cn[k]);mx=Math.max(mx,cn[k])}}
+  if(!selDay||selDay.slice(0,7)!==Y+"-"+String(m).padStart(2,"0")||!(selDay in cn)){selDay=null;for(var d2=1;d2<=last;d2++){var k2=iso(Y,m,d2),w=(first+d2-1)%7;if(k2 in cn&&w<5){selDay=k2;break}}}
+  DOW.forEach(function(d,i){h+='<div class="dow'+(i>4?" we":"")+'">'+d+"</div>"});
+  for(var i=0;i<first;i++)h+='<div class="day off"></div>';
+  for(var d=1;d<=last;d++){
+    var k=iso(Y,m,d),dw=(first+d-1)%7,inT=k in cn,st="";
+    if(inT){var lv=mx>mn?8+(cn[k]-mn)/(mx-mn)*50:20;st=' style="background:color-mix(in srgb,var(--gold) '+Math.round(lv)+'%,var(--card))"'}
+    h+='<div class="day'+(!inT?" off":dw>4?" we":"")+(k===selDay?" sel":"")+(k===TODAY?" today":"")+'" data-d="'+(inT?k:"")+'"'+st+'><div class="dn"><span>'+d+"</span></div>"+(inT?"<b>"+cn[k]+"</b>"+dl(k,dw):"")+"</div>";
+  }
+  $("view").innerHTML='<div class="mv"><div><div class="grid">'+h+'</div><div class="note">لون الخلية يدل على عدد الدورات النشطة في اليوم: الأغمق = الأكثر ازدحامًا في هذا الشهر. الأخضر (+) دورات انضمت، والأحمر (−) دورات تخرجت، مقارنة بيوم العمل السابق'+(mx?" (من "+mn+" إلى "+mx+" دورة)":"")+'.</div></div><div class="pn'+(PX?" ex":"")+'">'+panel()+"</div></div>";
+  try{var cc=$("view").firstChild&&$("view").firstChild.firstChild,pn=$("view").querySelector&&$("view").querySelector(".pn");if(cc&&pn&&!PX&&cc.offsetHeight)pn.style.maxHeight=cc.offsetHeight+"px"}catch(e){}
+}
+var MN=["يناير","فبراير","مارس","أبريل","مايو","يونيو","يوليو","أغسطس","سبتمبر","أكتوبر","نوفمبر","ديسمبر"];
+function prevWork(k){var p=k.split("-"),d=new Date(+p[0],+p[1]-1,+p[2]);do{d.setDate(d.getDate()-1)}while(d.getDay()>4);return iso(d.getFullYear(),d.getMonth()+1,d.getDate())}
+function chg(k){var pv=prevWork(k),v=vis();return{pv:pv,j:v.filter(function(c){return c.start>pv&&c.start<=k&&c.end>=k}),l:v.filter(function(c){return c.start<=pv&&c.end>=pv&&c.end<k})}}
+function dl(k,dw){if(dw>4)return"";var c=chg(k);if(!c.j.length&&!c.l.length)return"";return'<small class="dl">'+(c.j.length?'<span style="color:var(--s1)">+'+c.j.length+"</span> ":"")+(c.l.length?'<span style="color:var(--s4)">−'+c.l.length+"</span>":"")+"</small>"}
+function chgList(arr,note){return arr.map(function(c){return'<button class="pc" style="--c:'+ST[c.status]+'" data-id="'+c.id+'"><i></i><span>'+esc(c.name)+' <span class="more">('+note(c)+")</span></span></button>"}).join("")}
+function changes(k){
+  var c=chg(k),q=c.pv.split("-"),pd=new Date(+q[0],+q[1]-1,+q[2]);
+  var h='<div class="chg"><div class="note" style="margin:0 0 4px">مقارنة بيوم العمل السابق: '+DOW[pd.getDay()]+" "+(+q[2])+" "+MN[+q[1]-1]+"</div>";
+  if(c.j.length)h+='<div class="cg" style="color:var(--s1)">انضمت (+'+c.j.length+")</div>"+chgList(c.j,function(x){return"بدأت "+fmt(x.start)});
+  if(c.l.length)h+='<div class="cg" style="color:var(--s4)">تخرجت أو انتهت (−'+c.l.length+")</div>"+chgList(c.l,function(x){return"انتهت "+fmt(x.end)});
+  if(!c.j.length&&!c.l.length)h+='<div class="note" style="margin:0">لا تغيير في عدد الدورات.</div>';
+  return h+"</div>";
+}
+var PX=false;
+function panel(){
+  if(!selDay)return'<div class="empty">اختر يومًا من التقويم.</div>';
+  var p=selDay.split("-"),dt=new Date(+p[0],+p[1]-1,+p[2]),a=active(selDay),g={};
+  a.forEach(function(c){(g[c.ent||"بدون جهة"]=g[c.ent||"بدون جهة"]||[]).push(c)});
+  var keys=Object.keys(g).sort(function(x,y){return g[y].length-g[x].length});
+  var h='<div class="pnh"><h3>'+DOW[dt.getDay()]+" "+(+p[2])+" "+MN[+p[1]-1]+" · "+a.length+' دورة</h3><button type="button" class="pmt" id="pmt">'+(PX?"طي القائمة":"فرد القائمة")+"</button></div>"+(dt.getDay()<5?changes(selDay):"");
+  keys.forEach(function(k){
+    var cp=!PX;
+    h+=(cp?'<details class="pgd"'+(a.length<=4?" open":"")+'><summary class="pg">':'<div class="pg">')+"<span>"+esc(k)+"</span><span>"+g[k].length+"</span>"+(cp?"</summary>":"</div>");
+    g[k].forEach(function(c){h+='<button class="pc" style="--c:'+exc(c)+'" data-id="'+c.id+'"><i></i><span>'+esc(c.name)+' <span class="more">['+exl(c)+"]</span>"+(c.start===selDay?' <span class="more">(تبدأ اليوم)</span>':c.end===selDay?' <span class="more">(تنتهي اليوم)</span>':"")+(c.note&&!cp?'<br><span class="more">'+esc(c.note)+"</span>":"")+"</span></button>"});
+    if(cp)h+="</details>";
+  });
+  if(!a.length)h+='<div class="empty">لا توجد دورات في هذا اليوم.</div>';
+  return h+'<div style="margin-top:12px"><button class="btn ghost" id="padd">إضافة دورة في هذا اليوم</button></div>';
+}
+function tag(c){var t=c.start>TERM_E?"خارج الفصل":(c.start<TERM_S||c.end>TERM_E?"تمتد خارج الفصل":"");return t?' <span class="more">('+t+")</span>":""}
+function renderList(){
+  var q=$("q").value.trim().toLowerCase();
+  var rows=vis().filter(function(c){if(TERM_S&&!(c.start<=TERM_E&&c.end>=TERM_S))return false;return !q||(c.name+" "+c.ent).toLowerCase().indexOf(q)>-1}).sort(function(a,b){return a.start<b.start?-1:a.start>b.start?1:0});
+  if(!rows.length){$("view").innerHTML='<div class="tbl"><div class="empty">'+(data.length?"لا توجد نتائج مطابقة.":"لا توجد دورات بعد. اضغط «إضافة دورة» للبدء.")+"</div></div>";return}
+  var h="<table><thead><tr><th>م</th><th>الدورة</th><th>الجهة</th><th>البداية</th><th>النهاية</th><th>المشاركون</th><th>الحالة</th><th>التنفيذ</th><th>ملاحظات</th></tr></thead><tbody>";
+  rows.forEach(function(c,i){h+='<tr data-id="'+c.id+'"><td>'+(i+1)+"</td><td>"+esc(c.name)+tag(c)+"</td><td>"+esc(c.ent)+"</td><td>"+fmt(c.start)+"</td><td>"+fmt(c.end)+"</td><td>"+esc(c.n)+'</td><td><span class="pill" style="--c:'+ST[c.status]+'">'+c.status+'</span></td><td><span class="pill" style="--c:'+exc(c)+'">'+exl(c)+'</span></td><td style="white-space:normal;min-width:180px">'+esc(c.note)+"</td></tr>"});
+  $("view").innerHTML='<div class="tbl">'+h+"</tbody></table></div>";
+}
+function renderWeeks(){
+  var rows=[],mx=1,s=new Date(TERM_S+"T00:00:00"),end=new Date(TERM_E+"T00:00:00"),w=0;
+  s.setDate(s.getDate()-s.getDay());
+  while(s<=end&&w<80){
+    var e=new Date(s);e.setDate(e.getDate()+4);var ks=ymd(s),ke=ymd(e);
+    var n=vis().filter(function(c){return c.start<=ke&&c.end>=ks}).length;mx=Math.max(mx,n);
+    rows.push({w:++w,n:n,t:sumN(vis().filter(function(c){return c.start<=ke&&c.end>=ks})),l:s.getDate()+"/"+(s.getMonth()+1)+" – "+e.getDate()+"/"+(e.getMonth()+1)});
+    s=new Date(s);s.setDate(s.getDate()+7);
+  }
+  $("view").innerHTML='<div class="week">'+rows.map(function(r){return'<div class="wk"><small>أسبوع '+r.w+"</small><b>"+r.n+"</b><small>"+r.l+'</small><small style="display:block">'+r.t+' متدرب</small><div style="width:'+(r.n/mx*100)+'%"></div></div>'}).join("")+"</div>";
+}
+
+function openM(id,date){
+  editId=id||null;var c=id?data.filter(function(x){return x.id===id})[0]:null;
+  $("mh").textContent=c?"تعديل الدورة":"إضافة دورة";
+  $("fName").value=c?c.name:"";$("fEnt").value=c?c.ent:($("fe").value||"");
+  $("fS").value=c?c.start:(date||"");$("fE").value=c?c.end:(date||"");
+  $("fN").value=c?c.n:"";$("fNote").value=c?(c.note||""):"";$("fSt").value=c?c.status:"قيد التأكيد";
+  $("del").style.display=c?"":"none";$("err").textContent="";
+  $("mask").classList.add("on");$("fName").focus();
+}
+function closeM(){$("mask").classList.remove("on")}
+$("save").onclick=function(){
+  var o={name:$("fName").value.trim(),ent:$("fEnt").value.trim(),start:$("fS").value,end:$("fE").value,n:$("fN").value,note:$("fNote").value.trim(),status:$("fSt").value};
+  if(!o.name){$("err").textContent="اكتب اسم الدورة.";return}
+  if(!o.start||!o.end){$("err").textContent="حدّد تاريخ البداية والنهاية.";return}
+  if(o.end<o.start){$("err").textContent="تاريخ النهاية يجب أن يكون بعد البداية.";return}
+  if(editId){data=data.map(function(c){return c.id===editId?Object.assign({},c,o):c})}
+  else{o.id="c"+Date.now()+Math.floor(Math.random()*999);data.push(o)}
+  persist();closeM();render();
+};
+$("del").onclick=function(){if(editId&&confirm("حذف هذه الدورة؟")){data=data.filter(function(c){return c.id!==editId});persist();closeM();render()}};
+$("cancel").onclick=closeM;
+$("mask").onclick=function(e){if(e.target===$("mask"))closeM()};
+document.addEventListener("keydown",function(e){if(e.key==="Escape")closeM()});
+$("add").onclick=function(){openM()};
+$("prev").onclick=function(){if(mi>0){mi--;PX=false;render()}};
+$("next").onclick=function(){if(mi<MS.length-1){mi++;PX=false;render()}};
+$("q").oninput=renderList;
+document.querySelector(".tabs").onclick=function(e){var v=e.target.dataset&&e.target.dataset.v;if(v){view=v;render()}};
+$("view").onclick=function(e){
+  var ch=e.target.closest("[data-id]");if(ch){openM(ch.dataset.id);return}
+  if(e.target.closest("#goset")){openT();return}
+  if(e.target.closest("#padd")){openM(null,selDay);return}
+  if(e.target.closest("#pmt")){PX=!PX;renderMonth();return}
+  var dy=e.target.closest(".day");if(dy&&dy.dataset.d){PX=(dy.dataset.d===selDay&&PX)?false:true;selDay=dy.dataset.d;renderMonth();updateTrainees()}
+};
+$("ts").onchange=function(){curT=this.value;persistT();applyTerm();render()};
+$("setb").onclick=openT;
+$("fe").onchange=function(){render()};
+$("fs").onchange=function(){render()};
+$("ss").onchange=updateSchoolStat;
+$("chs").onkeydown=function(e){if(e.target.id==="nti"&&e.key==="Enter"){var v=e.target.value.trim();if(v){CNT.unshift(v.slice(0,140));saveCNT();ntMgr();var q=$("nti");if(q)q.focus()}}};
+$("chs").onclick=function(e){if(e.target.closest("#ntr")){ntRun();return}if(e.target.closest("#ntg")){NTO=!NTO;var m=$("ntm");m.dataset.open=NTO?"1":"0";ntMgr();var q=$("nti");if(q)q.focus();return}var nd=e.target.closest("[data-nd]");if(nd){CNT.splice(+nd.dataset.nd,1);saveCNT();ntMgr();return}
+  if(e.target.closest("[data-cm]")){CM=CM==="t"?"c":"t";try{localStorage.setItem("courses-cm-v1",CM)}catch(x){}renderCharts()}};
+function statData(){
+  var sc=$("ss").value,k=selDay||TERM_S,w0=wkRange(k,0),w1=wkRange(k,1),rows=[],T=[0,0,0,0];
+  (sc?[sc]:ents()).forEach(function(e){
+    var tm=data.filter(function(c){return c.status==="مؤكدة"&&c.ent===e&&c.start<=TERM_E&&c.end>=TERM_S});
+    var r=[e,tm.length,sumN(tm),sumN(inWk(tm,w0)),sumN(inWk(tm,w1))];rows.push(r);for(var i=0;i<4;i++)T[i]+=r[i+1];
+  });
+  return{rows:rows,tot:["الإجمالي"].concat(T),w0:w0,w1:w1,title:"إحصائية المتدربين – "+curTerm().name,sub:"الفترة: "+fmt(TERM_S)+" إلى "+fmt(TERM_E)+" · الدورات المؤكدة فقط · تاريخ التصدير: "+fmt(TODAY),
+    heads:["المدرسة / الجهة","عدد الدورات","المتدربون خلال الفصل","المتدربون هذا الأسبوع ("+w0.l+")","المتدربون الأسبوع القادم ("+w1.l+")"]};
+}
+function saveFile(name,data){return claude.use("downloads").then(function(d){if(!d){expMsg("التصدير غير متاح في هذا العرض. افتح الصفحة من claude.ai.");return}return d.save({filename:name,data:data}).then(function(){expMsg("تم حفظ الملف: "+name)}).catch(function(er){expMsg(er&&er.code==="declined"?"أُلغي الحفظ.":"تعذّر الحفظ ("+((er&&er.code)||"خطأ")+").")})}).catch(function(){expMsg("التصدير غير متاح في هذا العرض.")})}
+function xe(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+function wp(t,o){o=o||{};return'<w:p><w:pPr><w:bidi/><w:jc w:val="'+(o.c?"center":"left")+'"/></w:pPr><w:r><w:rPr><w:rtl/>'+(o.b?"<w:b/><w:bCs/>":"")+(o.col?'<w:color w:val="'+o.col+'"/>':"")+'<w:sz w:val="'+(o.sz||22)+'"/><w:szCs w:val="'+(o.sz||22)+'"/></w:rPr><w:t xml:space="preserve">'+xe(t)+"</w:t></w:r></w:p>"}
+function wcell(t,o){o=o||{};return'<w:tc><w:tcPr><w:tcW w:w="'+(o.w||1800)+'" w:type="dxa"/>'+(o.fill?'<w:shd w:val="clear" w:color="auto" w:fill="'+o.fill+'"/>':"")+"</w:tcPr>"+wp(t,o)+"</w:tc>"}
+function expMsg(t){$("expN").textContent=t}
+$("expX").onclick=function(){
+  if(!TERM_S){expMsg("حدّد تواريخ الفصل أولًا.");return}
+  if(typeof XLSX==="undefined"){expMsg("تعذّر تحميل مكتبة Excel. تحقق من الاتصال بالإنترنت وأعد المحاولة.");return}
+  try{var d=statData(),aoa=[[d.title],[d.sub],[],d.heads].concat(d.rows).concat([d.tot]),ws=XLSX.utils.aoa_to_sheet(aoa);
+    ws["!cols"]=[{wch:46},{wch:12},{wch:20},{wch:26},{wch:26}];ws["!merges"]=[{s:{r:0,c:0},e:{r:0,c:4}},{s:{r:1,c:0},e:{r:1,c:4}}];
+    var wb=XLSX.utils.book_new();wb.Workbook={Views:[{RTL:true}]};XLSX.utils.book_append_sheet(wb,ws,"إحصائية المتدربين");
+    var buf=XLSX.write(wb,{type:"array",bookType:"xlsx"});
+    saveFile("إحصائية_المتدربين_"+curTerm().name.replace(/\s+/g,"_")+".xlsx",new Blob([buf],{type:"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"}))}catch(e){expMsg("تعذّر إنشاء الملف: "+e.message)}
+};
+$("expW").onclick=function(){
+  if(!TERM_S){expMsg("حدّد تواريخ الفصل أولًا.");return}
+  if(typeof JSZip==="undefined"){expMsg("تعذّر تحميل مكتبة Word. تحقق من الاتصال بالإنترنت وأعد المحاولة.");return}
+  try{var d=statData(),ws=[1900,900,1400,1600,1600];
+    var tbl='<w:tbl><w:tblPr><w:tblW w:w="5000" w:type="pct"/><w:bidiVisual/><w:tblBorders>'+["top","left","bottom","right","insideH","insideV"].map(function(x){return"<w:"+x+' w:val="single" w:sz="4" w:space="0" w:color="999999"/>'}).join("")+"</w:tblBorders></w:tblPr>"+
+      "<w:tr>"+d.heads.map(function(x,i){return wcell(x,{b:1,c:1,col:"FFFFFF",fill:"0B1F3A",w:ws[i],sz:20})}).join("")+"</w:tr>"+
+      d.rows.concat([d.tot]).map(function(r,i,a){var l=i===a.length-1;return"<w:tr>"+r.map(function(x,j){return wcell(x,{b:l,c:j>0,fill:l?"E7ECF4":"",w:ws[j],sz:20})}).join("")+"</w:tr>"}).join("")+"</w:tbl>";
+    var doc='<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body>'+wp(d.title,{b:1,sz:32,col:"0B1F3A"})+wp(d.sub,{sz:20,col:"555555"})+wp("")+tbl+'<w:sectPr><w:pgSz w:w="11906" w:h="16838" w:orient="landscape"/><w:pgMar w:top="1000" w:right="800" w:bottom="1000" w:left="800" w:header="500" w:footer="500" w:gutter="0"/><w:bidi/></w:sectPr></w:body></w:document>';
+    doc=doc.replace('w:w="11906" w:h="16838" w:orient="landscape"','w:w="16838" w:h="11906" w:orient="landscape"');
+    var z=new JSZip();
+    z.file("[Content_Types].xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/></Types>');
+    z.file("_rels/.rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/></Relationships>');
+    z.file("word/document.xml",doc);
+    z.generateAsync({type:"blob",mimeType:"application/vnd.openxmlformats-officedocument.wordprocessingml.document"}).then(function(bl){saveFile("إحصائية_المتدربين_"+curTerm().name.replace(/\s+/g,"_")+".docx",bl)}).catch(function(e){expMsg("تعذّر إنشاء الملف: "+e.message)})}catch(e){expMsg("تعذّر إنشاء الملف: "+e.message)}
+};
+$("annb").onclick=function(){ANN.open=!ANN.open;this.setAttribute("aria-expanded",String(ANN.open));$("annv").style.display=ANN.open?"":"none";if(ANN.open){renderYear();if($("annv").scrollIntoView)$("annv").scrollIntoView({behavior:"smooth",block:"start"})}};
+$("annv").onclick=function(e){var t=e.target;if(t.closest("#ayn")){ANN.y++;ANN.sel=null}else if(t.closest("#ayp")){ANN.y--;ANN.sel=null}else if(t.closest("#ayt")){ANN.y=new Date().getFullYear();ANN.sel=null}else if(t.closest("#oadd")){ANN.form=!ANN.form}else if(t.closest("[data-od]")){OCC.splice(+t.closest("[data-od]").dataset.od,1);saveOCC()}else if(t.closest("#osave")){var dv=$("od").value,nv=$("on").value.trim(),cv=document.querySelector?document.querySelector('input[name="oc"]:checked'):null;
+  if(!dv||!nv){$("oerr").textContent="اكتب التاريخ والاسم.";return}
+  OCC.push({k:dv,n:nv.slice(0,60),c:cv?cv.value:"red",rep:$("orp").checked});saveOCC();ANN.y=+dv.slice(0,4);ANN.sel=dv}else if(t.closest("[data-tm]")){var id=t.closest("[data-tm]").dataset.tm;ANN.tm=ANN.tm===id?null:id}else{var b=t.closest("[data-k]");if(!b)return;ANN.sel=b.dataset.k}renderYear()};
+$("annv").onchange=function(e){if(e.target.id==="ay"){var v=parseInt(e.target.value,10);if(v>=1000&&v<=9999){ANN.y=v;ANN.sel=null;renderYear()}}};
+$("alerts").onclick=function(e){var b=e.target.closest("[data-id]");if(b)openM(b.dataset.id)};
+$("addT").onclick=function(){var d=document.createElement("div");d.innerHTML=trowH({id:"t"+Date.now(),name:"فصل جديد",s:"",e:""});$("tl2").appendChild(d.firstChild)};
+$("tl2").onclick=function(e){var b=e.target.closest(".rmT");if(b)b.parentNode.parentNode.removeChild(b.parentNode)};
+$("cancelT").onclick=function(){$("mask2").classList.remove("on")};
+$("mask2").onclick=function(e){if(e.target===$("mask2"))$("mask2").classList.remove("on")};
+document.addEventListener("keydown",function(e){if(e.key==="Escape")$("mask2").classList.remove("on")});
+$("saveT").onclick=function(){
+  var out=[],bad="";
+  document.querySelectorAll("#tl2 .trow").forEach(function(r){
+    var nm=r.querySelector(".tn").value.trim(),s=r.querySelector(".ts1").value,e=r.querySelector(".te1").value;
+    if(!nm)return;if(s&&e&&e<s)bad="تاريخ نهاية «"+nm+"» يجب أن يكون بعد بدايته.";
+    out.push({id:r.dataset.tid,name:nm,s:s,e:e});
+  });
+  if(bad){$("terr").textContent=bad;return}
+  if(!out.length){$("terr").textContent="يجب أن يبقى فصل واحد على الأقل.";return}
+  TERMS=out;if(!TERMS.some(function(t){return t.id===curT}))curT=TERMS[0].id;
+  persistT();fillTerms();applyTerm();render();$("mask2").classList.remove("on");
+};
+fillTerms();applyTerm();render();
+</script>
+</body>
+</html>
+
+</body></html>
