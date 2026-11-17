@@ -1,4 +1,3 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -352,7 +351,8 @@ var ANN={y:new Date().getFullYear(),sel:null,open:false,tm:null},HF=null,HAR=nul
 ["islamic-umalqura","islamic-civil"].some(function(c){try{var f=new Intl.DateTimeFormat("en-u-ca-"+c+"-nu-latn",{year:"numeric",month:"numeric",day:"numeric",timeZone:"UTC"});if(f.formatToParts(new Date(Date.UTC(2027,1,8,12))).some(function(x){return x.type==="month"})){HF=f;HAR=new Intl.DateTimeFormat("ar-u-ca-"+c+"-nu-latn",{day:"numeric",month:"long",year:"numeric",timeZone:"UTC"});return true}}catch(e){}return false});
 function hij(dt){if(!HF)return null;var o={};HF.formatToParts(dt).forEach(function(p){if(p.type==="year"||p.type==="month"||p.type==="day")o[p.type]=parseInt(p.value,10)});return o}
 function hdesc(dt){try{return HAR?HAR.format(dt):""}catch(e){return""}}
-var ONCE=[[2027,3,30,"يوم تفتيش القائد"]],OCC=[],OCOL={red:"#c62f2f",yel:"#f2c200",blue:"var(--occ)",grn:"var(--s1)"};
+var ONCE=[[2027,3,30,"يوم تفتيش القائد","red"]],
+TRULES=[{n:"اليوم الرياضي للأكاديمية",c:"yel",w:11,d:2,fix:{t26c:"2026-11-24"},all:true},{n:"تفتيش آمر أكاديمية السلطان قابوس",c:"red",w:12,d:1,fix:{t26c:"2026-11-23"},all:false}],OCC=[],OCOL={red:"#c62f2f",yel:"#f2c200",blue:"var(--occ)",grn:"var(--s1)"};
 try{OCC=JSON.parse(localStorage.getItem("courses-occ-v1")||"[]")}catch(e){OCC=[]}
 function saveOCC(){try{localStorage.setItem("courses-occ-v1",JSON.stringify(OCC))}catch(e){}}
 function evc(e){return e.t==="r"?"var(--s1)":e.t==="n"?"var(--occ)":OCOL[e.t.slice(2)]||"var(--occ)"}
@@ -361,7 +361,11 @@ function yearEvents(y){
   function add(k,n,t){(ev[k]=ev[k]||[]).push({n:n,t:t})}
   FIXED.forEach(function(f){add(iso(y,f[0],f[1]),f[2],"n")});
   OCC.forEach(function(o){var q=o.k.split("-");if(o.rep){if(+q[0]<=y)add(iso(y,+q[1],+q[2]),o.n,"c:"+o.c)}else if(+q[0]===y)add(o.k,o.n,"c:"+o.c)});
-  ONCE.forEach(function(o){if(o[0]===y)add(iso(y,o[1],o[2]),o[3],"n")});
+  ONCE.forEach(function(o){if(o[0]===y)add(iso(y,o[1],o[2]),o[3],o[4]?"c:"+o[4]:"n")});
+  TERMS.forEach(function(t){if(!t.s||!t.e)return;TRULES.forEach(function(r){
+    var k=r.fix[t.id];
+    if(!k){var b=new Date(t.s+"T12:00:00");b.setDate(b.getDate()-b.getDay()+(r.w-1)*7+r.d);k=ymd(b);if(k>t.e)return}
+    if(+k.slice(0,4)===y)add(k,r.n,"c:"+r.c)})});
   if(HF){var d=new Date(Date.UTC(y,0,1,12));while(d.getUTCFullYear()===y){var k=iso(y,d.getUTCMonth()+1,d.getUTCDate()),hh=hij(d);if(hh){REL.forEach(function(r){if(hh.month===r.m&&hh.day===r.d)add(k,r.n,"r")});if(hh.month===9)rm[k]=1}d.setUTCDate(d.getUTCDate()+1)}}
   return{ev:ev,rm:rm};
 }
@@ -642,5 +646,3 @@ fillTerms();applyTerm();render();
 </script>
 </body>
 </html>
-
-</body></html>
